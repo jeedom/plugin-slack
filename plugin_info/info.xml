@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+    <id>slack</id>
+    <name>Slack</name>
+    <description>Plugin pour creer lier Jeedom à Slack</description>
+    <icon>fa fa-keyboard-o</icon>
+    <licence>AGPL</licence>
+    <author>Loïc Gevrey</author>
+    <installation>Aucune</installation>
+    <require>1.193</require>
+    <category>communication</category>
+</info>
+
