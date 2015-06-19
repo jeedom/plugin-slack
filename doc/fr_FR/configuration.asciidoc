@@ -6,11 +6,11 @@ image::../images/slack1.PNG[]
 
 === Configuration des équipements
 
-La configuration des équipements energies est accessible à partir du menu plugin : 
+La configuration des équipements Slack est accessible à partir du menu plugin : 
 
 image::../images/slack2.PNG[]
 
-Voilà à quoi ressemble la page du plugin energie (ici avec déjà 5 équipements) : 
+Voilà à quoi ressemble la page du plugin Slack (ici avec déjà 1 équipements) : 
 
 image::../images/slack3.PNG[]
 
@@ -25,7 +25,7 @@ image::../images/slack4.PNG[]
 
 Vous retrouvez ici toute la configuration de votre équipement : 
 
-* *Nom de l'équipement* : nom de votre équipement energie
+* *Nom de l'équipement* : nom de votre équipement Slack
 * *Activer* : permet de rendre votre équipement actif
 * *Visible* : le rend visible sur le dashboard
 * *Domaine* : nom de domaine de votre Slack (permet notament si vous avez plusieurs Slack de les différencier)

@@ -2,7 +2,7 @@
 <info>
     <id>slack</id>
     <name>Slack</name>
-    <description>Plugin pour creer lier Jeedom à Slack</description>
+    <description>Plugin pour lier Jeedom à Slack</description>
     <icon>fa fa-keyboard-o</icon>
     <licence>AGPL</licence>
     <author>Loïc Gevrey</author>
