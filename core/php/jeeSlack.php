@@ -34,12 +34,17 @@ if (!is_object($eqLogic)) {
 	echo json_encode(array('text' => __('Domaine inconnue : ', __FILE__) . init('team_domain')));
 	die();
 }
+$parameters = array();
+$user = user::byLogin(init('user_name'));
+if (is_object($user)) {
+	$parameters['profile'] = init('user_name');
+}
 
 $cmd_text = $eqLogic->getCmd('info', 'text');
 $cmd_text->event(trim(init('text')));
 $cmd_sender = $eqLogic->getCmd('info', 'sender');
 $cmd_sender->event(init('user_name'));
 
-$reply = interactQuery::tryToReply(trim(init('text')));
+$reply = interactQuery::tryToReply(trim(init('text')), $parameters);
 echo json_encode(array('text' => $reply));
 ?>
