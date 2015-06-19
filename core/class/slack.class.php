@@ -86,7 +86,7 @@ class slackCmd extends cmd {
 	/*     * *********************Methode d'instance************************* */
 
 	public function execute($_options = array()) {
-		$request_http = new com_http($this->getConfiguration('webhook'));
+		$request_http = new com_http(trim($this->getConfiguration('webhook')));
 		$post = array('text' => trim($_options['title'] . ' ' . $_options['message']));
 		if ($this->getConfiguration('destination') != '') {
 			$post['channel'] = $this->getConfiguration('destination');
