@@ -72,7 +72,7 @@ foreach ($eqLogics as $eqLogic) {
     <div class="form-group">
       <label class="col-lg-3 control-label">{{URL de retour}}</label>
       <div class="col-lg-9">
-        <span><?php echo network::getNetworkAccess() . '/plugins/slack/core/php/jeeSlack.php?apikey=' . config::byKey('api');?></span>
+        <span><?php echo network::getNetworkAccess('external') . '/plugins/slack/core/php/jeeSlack.php?apikey=' . config::byKey('api');?></span>
       </div>
     </div>
   </fieldset>
