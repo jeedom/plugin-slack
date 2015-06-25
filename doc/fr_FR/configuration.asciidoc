@@ -35,7 +35,7 @@ En dessous vous retrouvez la configuration des commandes :
 
 * *Nom* : nom de la commande
 * *Webhook* : URL à appeller pour envoyé un message sur Slack
-* *Destination* : nom obligatoire, permet de forcer l'envoi d'un message vers un channel ou un utilisateur
+* *Destination* : non obligatoire, permet de forcer l'envoi d'un message vers un channel ou un utilisateur
 * configuration avancée (petites roues crantées) : permet d'afficher la configuration avancée de la commande (méthode d'historisation, widget...)
 * Tester : permet de tester la commande
 * supprimer (signe -) : permet de supprimer la commande
