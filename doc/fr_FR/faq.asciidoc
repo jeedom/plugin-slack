@@ -1,7 +1,2 @@
-[panel,primary]
-.Mes compteurs ne semblent pas etre en temp réel
---
-Le plugin energie n'est pas la pour faire du temps réel, il fait un relevé toute les 15min. Donc dans le cas de la simulation de consommation il faut 15min pour qu'un changement d'état soit pris en compte, si votre lampe ne reste allumé que 10min sa consommation ne sera donc pas pris en compte.
---
 
 
