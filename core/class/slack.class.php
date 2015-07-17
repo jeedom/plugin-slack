@@ -85,6 +85,12 @@ class slackCmd extends cmd {
 
 	/*     * *********************Methode d'instance************************* */
 
+	public function preSave() {
+		if ($this->getSubtype() == 'message') {
+			$this->setDisplay('title_disable', 1);
+		}
+	}
+
 	public function execute($_options = array()) {
 		$request_http = new com_http(trim($this->getConfiguration('webhook')));
 		$post = array('text' => trim($_options['title'] . ' ' . $_options['message']));
