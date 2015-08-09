@@ -14,7 +14,7 @@ $eqLogics = eqLogic::byType('slack');
         <li class="filter" style="margin-bottom: 5px;"><input class="filter form-control input-sm" placeholder="{{Rechercher}}" style="width: 100%"/></li>
         <?php
 foreach ($eqLogics as $eqLogic) {
-	echo '<li class="cursor li_eqLogic" data-eqLogic_id="' . $eqLogic->getId() . '"><a>' . $eqLogic->getHumanName() . '</a></li>';
+	echo '<li class="cursor li_eqLogic" data-eqLogic_id="' . $eqLogic->getId() . '"><a>' . $eqLogic->getHumanName(true) . '</a></li>';
 }
 ?>
      </ul>
@@ -50,27 +50,27 @@ foreach ($eqLogics as $eqLogic) {
     <fieldset>
       <legend><i class="fa fa-arrow-circle-left eqLogicAction cursor" data-action="returnToThumbnailDisplay"></i> {{Général}}  <i class='fa fa-cogs eqLogicAction pull-right cursor expertModeVisible' data-action='configure'></i></legend>
       <div class="form-group">
-        <label class="col-sm-3 control-label">{{Nom de l'équipement Slack}}</label>
+        <label class="col-sm-2 control-label">{{Nom de l'équipement Slack}}</label>
         <div class="col-sm-3">
           <input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display : none;" />
           <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement slack}}"/>
         </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-3 control-label" >{{Activer}}</label>
+        <label class="col-sm-2 control-label" >{{Activer}}</label>
         <div class="col-sm-9">
          <input type="checkbox" class="eqLogicAttr bootstrapSwitch" data-label-text="{{Activer}}" data-l1key="isEnable" checked/>
          <input type="checkbox" class="eqLogicAttr bootstrapSwitch" data-label-text="{{Visible}}" data-l1key="isVisible" checked/>
        </div>
      </div>
      <div class="form-group">
-     <label class="col-sm-3 control-label">{{Domaine}}</label>
+     <label class="col-sm-2 control-label">{{Domaine}}</label>
       <div class="col-sm-3">
         <input type="text" class="eqLogicAttr form-control" data-l1key="logicalId" placeholder="{{Nom du domaine}}"/>
       </div>
     </div>
     <div class="form-group">
-      <label class="col-lg-3 control-label">{{URL de retour}}</label>
+      <label class="col-lg-2 control-label">{{URL de retour}}</label>
       <div class="col-lg-9">
         <span><?php echo network::getNetworkAccess('external') . '/plugins/slack/core/php/jeeSlack.php?apikey=' . config::byKey('api');?></span>
       </div>
