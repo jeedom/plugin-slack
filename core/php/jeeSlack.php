@@ -42,7 +42,6 @@ if (is_object($user)) {
 
 foreach ($eqLogic->getCmd('action') as $cmd) {
 	if ('#' . init('channel_name') == $cmd->getConfiguration('destination') && $cmd->getConfiguration('storeVariable', 'none') != 'none') {
-		log::add('slack', 'debug', 'jai trouvé : ' . print_r($cmd, true));
 		$dataStore = new dataStore();
 		$dataStore->setType('scenario');
 		$dataStore->setKey($cmd->getConfiguration('storeVariable', 'none'));
@@ -51,6 +50,8 @@ foreach ($eqLogic->getCmd('action') as $cmd) {
 		$dataStore->save();
 		$cmd->setConfiguration('storeVariable', 'none');
 		$cmd->save();
+		echo json_encode(array('text' => ''));
+		die();
 	}
 }
 

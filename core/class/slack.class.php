@@ -93,10 +93,6 @@ class slackCmd extends cmd {
 
 	public function execute($_options = array()) {
 		$request_http = new com_http(trim($this->getConfiguration('webhook')));
-		if (isset($_options['variable'])) {
-			$this->setConfiguration('storeVariable', $_options['variable']);
-			$this->save();
-		}
 		if (isset($_options['answer'])) {
 			$_options['message'] .= ' (' . implode(';', $_options['answer']) . ')';
 		}
