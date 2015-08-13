@@ -101,7 +101,7 @@ class slackCmd extends cmd {
 			$post['channel'] = $this->getConfiguration('destination');
 		}
 		$request_http->setPost(array('payload' => json_encode($post)));
-		$request_http->exec(1, 1);
+		$request_http->exec(2, 3);
 	}
 
 	/*     * **********************Getteur Setteur*************************** */
