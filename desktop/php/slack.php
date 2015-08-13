@@ -69,6 +69,12 @@ foreach ($eqLogics as $eqLogic) {
         <input type="text" class="eqLogicAttr form-control" data-l1key="logicalId" placeholder="{{Nom du domaine}}"/>
       </div>
     </div>
+     <div class="form-group">
+     <label class="col-sm-2 control-label">{{Authentification token}}</label>
+      <div class="col-sm-3">
+        <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="oauth_token" placeholder="{{Token}}"/>
+      </div>
+    </div>
     <div class="form-group">
       <label class="col-lg-2 control-label">{{URL de retour}}</label>
       <div class="col-lg-9">

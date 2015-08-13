@@ -92,6 +92,7 @@ class slackCmd extends cmd {
 	}
 
 	public function execute($_options = array()) {
+
 		$request_http = new com_http(trim($this->getConfiguration('webhook')));
 		if (isset($_options['answer'])) {
 			$_options['message'] .= ' (' . implode(';', $_options['answer']) . ')';
@@ -101,7 +102,42 @@ class slackCmd extends cmd {
 			$post['channel'] = $this->getConfiguration('destination');
 		}
 		$request_http->setPost(array('payload' => json_encode($post)));
-		$request_http->exec(2, 3);
+		$request_http->exec(5, 3);
+
+		if (isset($_options['files']) && is_array($_options['files'])) {
+			$eqLogic = $this->getEqLogic();
+			$request_http = new com_http('https://slack.com/api/channels.list');
+			$request_http->setPost(array('token' => $eqLogic->getConfiguration('oauth_token')));
+			$channels = json_decode($request_http->exec(10, 3), true);
+			$cid = null;
+			if (isset($channels['channels'])) {
+				foreach ($channels['channels'] as $channel) {
+					if ('#' . $channel['name'] == $this->getConfiguration('destination')) {
+						$cid = $channel['id'];
+						break;
+					}
+				}
+			}
+			if ($cid == null) {
+				return;
+			}
+			foreach ($_options['files'] as $file) {
+				$request_http = new com_http('https://slack.com/api/files.upload');
+				$post = array('token' => $eqLogic->getConfiguration('oauth_token'), 'channels' => $cid);
+				if (version_compare(phpversion(), '5.5.0', '>=')) {
+					$post['file'] = new CurlFile($file);
+				} else {
+					$post['file'] = '@' . $file;
+				}
+				$request_http->setPost($post);
+				try {
+					$request_http->exec(60, 1);
+				} catch (Exception $e) {
+
+				}
+			}
+		}
+
 	}
 
 	/*     * **********************Getteur Setteur*************************** */

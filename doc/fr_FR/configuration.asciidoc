@@ -1,10 +1,10 @@
-=== Configuration du plugin
+== Configuration du plugin
 
 Après téléchargement du plugin, il vous faut l'activer, celui-ci ne nécessite aucune autre configuration.
 
 image::../images/slack1.PNG[]
 
-=== Configuration des équipements
+== Configuration des équipements
 
 La configuration des équipements Slack est accessible à partir du menu plugin : 
 
@@ -14,7 +14,6 @@ Voilà à quoi ressemble la page du plugin Slack (ici avec déjà 1 équipement)
 
 image::../images/slack3.PNG[]
 
-[icon="../images/plugin/tip.png"]
 [TIP]
 Comme à beaucoup d'endroit sur Jeedom, mettre la souris tout à gauche permet de faire apparaître un menu d'accès rapide (vous pouvez à partir de votre profils le laisser toujours visible).
 
@@ -22,13 +21,13 @@ Une fois que vous cliquez sur l'un d'eux, vous obtenez :
 
 image::../images/slack4.PNG[]
 
-
 Vous retrouvez ici toute la configuration de votre équipement : 
 
 * *Nom de l'équipement* : nom de votre équipement Slack
 * *Activer* : permet de rendre votre équipement actif
 * *Visible* : le rend visible sur le dashboard
 * *Domaine* : nom de domaine de votre Slack (permet notament si vous avez plusieurs Slack de les différencier)
+* *Authentification token* : token de l'api slack, utile uniquement pour l'envoi de fichier (capture d'une camera par exemple), voir plus bas la méthode pour le récuperer
 * *URL de retour* : c'est l'url qui faudra donner dans le webhook de Slack (attention il faut que votre jeedom soit accessible de l'exterieur)
 
 En dessous vous retrouvez la configuration des commandes : 
@@ -40,11 +39,10 @@ En dessous vous retrouvez la configuration des commandes :
 * Tester : permet de tester la commande
 * supprimer (signe -) : permet de supprimer la commande
 
-[icon="../images/plugin/tip.png"]
 [TIP]
 Il existe par défaut 2 commandes : Expéditeur qui vous donne le nom du dernier expéditeur du message et Message qui vous donne le message, cela peut servir, si vous voulez faire quelque chose qui n'est pas possible avec les intéractions de déclencher un scénario sur l'arrivé d'un nouveau message par exemple et de récupérer la valeur de celui-ci (on peut par exemple imaginer faire lire le message sur des Sonos ou un Karotz)
 
-=== Creation d'un compte Slack
+== Creation d'un compte Slack
 
 Rien de plus il suffit d'aller link::https://slack.com/[ici], et de renseigner une adresse mail et un nom de domaine/companie, par exemple : 
 
@@ -58,7 +56,7 @@ image::../images/slack6.PNG[]
 
 À partir de la vous trouvez sur la gauche les channel et les utilisateurs, au centre vous pouvez télécharger l'application Slack pour iOS, Android, Mac ou Windows
 
-=== Ajout du webhook sortant
+== Ajout du webhook sortant
 
 Les wekhook permettent à Slack d'informer Jeedom de l'arrivée d'un message et d'attendre la réponse de Jeedom pour vous la retransmettre, pour se faire il faut aller dans les paramètres : 
 
@@ -94,15 +92,13 @@ image::../images/slack12.PNG[]
 
 Voilà c'est bon vous pouvez parler à Jeedom à travers Slack
 
-[icon="../images/plugin/important.png"]
 [IMPORTANT]
 N'oubliez pas dans Jeedom de renseigner votre nom de domaine (nom de compagnie), sinon Jeedom refusera de vous répondre (attention ce champs est sensible à la case).
 
-[icon="../images/plugin/tip.png"]
 [TIP]
 Étant donné que Jeedom sépare les équipements par domaine, il est possible si vous avez plusieurs domaines de séparer les équipements et donc les scénarios derriere.
 
-=== Ajout due webhook entrant
+== Ajout due webhook entrant
 
 Les webhooks entrants permettent à Jeedom de communiquer un message sur un channel (canal) ou directement à une personne. Sans ces webhook Jeedom ne pourront prendre l'initiative de vous envoyer un message, pour se faire il faut aller dans les paramètres : 
 
@@ -126,14 +122,23 @@ image::../images/slack15.PNG[]
 
 En bas de la page vous retrouvez les informations du webhook, il vous suffit de recupérer la valeur du champs "Webhook URL" et la copier dans le champs Webhook de votre commande.
 
-[icon="../images/plugin/tip.png"]
 [TIP]
 Dans le champs destination de la commande dans Jeedom vous pouvez spécifier un channel (ex #monchannel) ou un utilisateur (ex @toto).
 
 Voilà sous Jeedom vous avez juste à sauvegarder et là vous pourrez à partir de Jeedom envoyer des messages sur Slack
 
+== Récupération du token
 
-=== C'est quoi le résulat ?
+Voila comment récuperer votre token pour que jeedom puisse envoyer des fichiers sur slack, et en particulier des captures des caméras par exemple. Tout d'abord il faut aller link::https://api.slack.com/web?sudo=1[ici], puis tout en bas aller sur :
+
+image::../images/slack17.PNG[] 
+
+Ici en face de votre team demander à slack de generer le token, il va vous demander votre mots de passe puis vous renvoyer sur la meme page, tout en bas demander à nouveau le token. Au bout de quelques secondes celui-ci va apparaitre, il suffit de le copier dans le champs token sur Jeedom
+
+[TIP]
+Cette étape est optionnelle, elle est juste utile pour envoyer des captures de votre camera par Slack par exemple.
+
+== C'est quoi le résulat ?
 
 Voilà un exemple de ce qu'il est possible de faire une fois le plugin correctement et des intéractions de créer : 
 
