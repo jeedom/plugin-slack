@@ -143,3 +143,6 @@ Cette étape est optionnelle, elle est juste utile pour envoyer des captures de 
 Voilà un exemple de ce qu'il est possible de faire une fois le plugin correctement et des intéractions de créer : 
 
 image::../images/slack16.PNG[]
+
+[IMPORTANT]
+Si vous utilisez la fonction "ask" des scénario il faut bien envoyer la demande sur un channel dont jeedom écoute les réponses sinon votre demande "ask" tombera en "timeout"
