@@ -25,25 +25,25 @@ class slack extends eqLogic {
 	/*     * ***********************Methode static*************************** */
 
 	/*
-	 * Fonction exécutée automatiquement toutes les minutes par Jeedom
-	public static function cron() {
+		 * Fonction exécutée automatiquement toutes les minutes par Jeedom
+		public static function cron() {
 
-	}
-	 */
-
-	/*
-	 * Fonction exécutée automatiquement toutes les heures par Jeedom
-	public static function cronHourly() {
-
-	}
-	 */
+		}
+	*/
 
 	/*
-	 * Fonction exécutée automatiquement tous les jours par Jeedom
-	public static function cronDayly() {
+		 * Fonction exécutée automatiquement toutes les heures par Jeedom
+		public static function cronHourly() {
 
-	}
-	 */
+		}
+	*/
+
+	/*
+		 * Fonction exécutée automatiquement tous les jours par Jeedom
+		public static function cronDayly() {
+
+		}
+	*/
 
 	/*     * *********************Méthodes d'instance************************* */
 
@@ -57,7 +57,6 @@ class slack extends eqLogic {
 		}
 		$sms->setType('info');
 		$sms->setSubType('string');
-		$sms->setEventOnly(1);
 		$sms->setEqLogic_id($this->getId());
 		$sms->save();
 
@@ -70,7 +69,6 @@ class slack extends eqLogic {
 		}
 		$sender->setType('info');
 		$sender->setSubType('string');
-		$sender->setEventOnly(1);
 		$sender->setEqLogic_id($this->getId());
 		$sender->save();
 	}
