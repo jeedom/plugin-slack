@@ -24,7 +24,7 @@ if (init('apikey') != config::byKey('api') || config::byKey('api') == '') {
 	die();
 }
 
-if (init('user_name') == 'slackbot' || init('user_id') == 'USLACKBOT') {
+if (init('user_name') == 'slackbot' || init('user_id') == 'USLACKBOT' || init('text') == '') {
 	echo json_encode(array('text' => ''));
 	die();
 }
