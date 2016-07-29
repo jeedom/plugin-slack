@@ -41,15 +41,14 @@ if (is_object($user)) {
 }
 
 foreach ($eqLogic->getCmd('action') as $cmd) {
-	if ('#' . init('channel_name') == $cmd->getConfiguration('destination') && $cmd->getConfiguration('storeVariable', 'none') != 'none') {
+	if ('#' . init('channel_name') == $cmd->getConfiguration('destination') && $cmd->getCache('storeVariable', 'none') != 'none') {
 		$dataStore = new dataStore();
 		$dataStore->setType('scenario');
-		$dataStore->setKey($cmd->getConfiguration('storeVariable', 'none'));
+		$dataStore->setKey($cmd->getCache('storeVariable', 'none'));
 		$dataStore->setValue(init('text'));
 		$dataStore->setLink_id(-1);
 		$dataStore->save();
-		$cmd->setConfiguration('storeVariable', 'none');
-		$cmd->save();
+		$cmd->setCache('storeVariable', 'none');
 		echo json_encode(array('text' => ''));
 		die();
 	}
