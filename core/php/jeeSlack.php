@@ -23,8 +23,7 @@ if (init('apikey') != config::byKey('api') || config::byKey('api') == '') {
 	echo 'Clef API non valide, vous n\'etes pas autorisé à effectuer cette action (jeeApi)';
 	die();
 }
-
-if (init('user_name') == 'slackbot' || init('user_id') == 'USLACKBOT' || init('text') == '') {
+if (init('user_name') == 'slackbot' || init('user_id') == 'USLACKBOT' || init('text') == '' || strpos(init('text'),'uploaded a file:') {
 	echo json_encode(array('text' => ''));
 	die();
 }
