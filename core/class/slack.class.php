@@ -98,9 +98,10 @@ class slackCmd extends cmd {
 		if ($this->getConfiguration('destination') != '') {
 			$post['channel'] = $this->getConfiguration('destination');
 		}
-		$request_http->setPost(array('payload' => json_encode($post)));
-		$request_http->exec(5, 3);
-
+		if (!isset($_options['files']) || !is_array($_options['files'])) {
+			$request_http->setPost(array('payload' => json_encode($post)));
+			$request_http->exec(5, 3);
+		}
 		if (isset($_options['files']) && is_array($_options['files'])) {
 			$eqLogic = $this->getEqLogic();
 			$request_http = new com_http('https://slack.com/api/channels.list');
@@ -123,8 +124,10 @@ class slackCmd extends cmd {
 				$post = array('token' => $eqLogic->getConfiguration('oauth_token'), 'channels' => $cid);
 				if (version_compare(phpversion(), '5.5.0', '>=')) {
 					$post['file'] = new CurlFile($file);
+					$post['title'] = trim($_options['title'] . ' ' . $_options['message']);
 				} else {
 					$post['file'] = '@' . $file;
+					$post['title'] = trim($_options['title'] . ' ' . $_options['message']);
 				}
 				$request_http->setPost($post);
 				try {
