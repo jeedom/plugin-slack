@@ -1,0 +1,44 @@
+{
+    "plugins/slack/plugin_info/info.xml": {
+        "Plugin pour creer un bot sur slack": "Plugin pour creer un bot sur slack",
+        "Aucune": "Нет",
+        "Plugin pour creer lier Jeedom à Slack": "Plugin pour creer lier Jeedom à Slack",
+        "Plugin pour lier Jeedom à Slack": "Plugin pour lier Jeedom à Slack"
+    },
+    "plugins/slack/core/class/slack.class.php": {
+        "Message": "Сообщение",
+        "Expediteur": "Expediteur"
+    },
+    "plugins/slack/desktop/php/slack.php": {
+        "Ajouter un template": "Добавить шаблон",
+        "Rechercher": "Искать",
+        "Mes templates": "Мои шаблоны",
+        "Général": "Главная",
+        "Nom de l'équipement Slack": "Nom de l'équipement Slack",
+        "Nom de l'équipement slack": "Nom de l'équipement slack",
+        "Activer": "Активировать",
+        "Visible": "Видимый",
+        "Domaine": "Домен",
+        "Nom du domaine": "Nom du domaine",
+        "URL de retour": "URL возвращения",
+        "Commande": "Команда",
+        "Ajouter une commande": "Добавить команду",
+        "Nom": "Имя",
+        "Webhook": "Webhook",
+        "Destination": "Destination",
+        "Options": "Опции",
+        "Supprimer": "Удалить",
+        "Sauvegarder": "Сохранить",
+        "Ajouter un Slack": "Ajouter un Slack",
+        "Mes Slack": "Mes Slack",
+        "Authentification tocken": "Authentification tocken",
+        "Token": "Знак",
+        "Authentification token": "Authentification token"
+    },
+    "plugins/slack/desktop/js/slack.js": {
+        "Nom": "Имя",
+        "Webhook": "Webhook",
+        "Destination": "Destination",
+        "Tester": "Тест"
+    }
+}
