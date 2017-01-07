@@ -6,11 +6,11 @@ image::../images/slack1.PNG[]
 
 == Geräte Konfiguration
 
-La configuration des équipements Slack est accessible à partir du menu plugin : 
+Die Konfiguration von Slack-Geräten ist in dem Plugin-Menü verfügbar : 
 
 image::../images/slack2.PNG[]
 
-Voilà à quoi ressemble la page du plugin Slack (ici avec déjà 1 équipement) : 
+Das sieht wie die Slack Plugin-Seite aus (hier bereits mit 1 Gerät) : 
 
 image::../images/slack3.PNG[]
 
