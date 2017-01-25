@@ -452,7 +452,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="_equipment_configuration">2. Equipment configuration</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>La configuration des équipements Slack est accessible à partir du menu plugin :</p>
+<p>La configuration des équipements Slack est accessible à partir du menu Plugins :</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -474,7 +474,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-Comme à beaucoup d&#8217;endroit sur Jeedom, mettre la souris tout à gauche permet de faire apparaître un menu d&#8217;accès rapide (vous pouvez à partir de votre profils le laisser toujours visible).
+Comme à beaucoup d&#8217;endroits sur Jeedom, mettre la souris tout à gauche permet de faire apparaître un menu d&#8217;accès rapide (vous pouvez à partir de votre profil le laisser toujours visible).
 </td>
 </tr>
 </table>
@@ -502,13 +502,13 @@ Comme à beaucoup d&#8217;endroit sur Jeedom, mettre la souris tout à gauche pe
 <p><strong>Visible</strong> : le rend visible sur le dashboard</p>
 </li>
 <li>
-<p><strong>Domaine</strong> : nom de domaine de votre Slack (permet notament si vous avez plusieurs Slack de les différencier)</p>
+<p><strong>Domaine</strong> : nom de domaine de votre Slack (permet notamment si vous avez plusieurs Slack de les différencier)</p>
 </li>
 <li>
-<p><strong>Authentification token</strong> : token de l&#8217;api Slack, utile uniquement pour l&#8217;envoi de fichier (capture d&#8217;une camera par exemple), voir plus bas la méthode pour le récupérer</p>
+<p><strong>Authentification token</strong> : token de l&#8217;api Slack, utile uniquement pour l&#8217;envoi de fichiers (capture d&#8217;une camera par exemple), voir plus bas la méthode pour le récupérer</p>
 </li>
 <li>
-<p><strong>URL de retour</strong> : c&#8217;est l&#8217;url qui faudra donner dans le webhook de Slack (attention il faut que votre Jeedom soit accessible de l&#8217;exterieur)</p>
+<p><strong>URL de retour</strong> : c&#8217;est l&#8217;URL qui faudra donner dans le webhook de Slack (attention il faut que votre Jeedom soit accessible de l&#8217;extérieur)</p>
 </li>
 </ul>
 </div>
@@ -544,7 +544,7 @@ Comme à beaucoup d&#8217;endroit sur Jeedom, mettre la souris tout à gauche pe
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-Il existe par défaut 2 commandes : Expéditeur qui vous donne le nom du dernier expéditeur du message et Message qui vous donne le message, cela peut servir, si vous voulez faire quelque chose qui n&#8217;est pas possible avec les interactions de déclencher un scénario sur l&#8217;arrivé d&#8217;un nouveau message par exemple et de récupérer la valeur de celui-ci (on peut par exemple imaginer faire lire le message sur des Sonos ou un Karotz)
+Il existe par défaut 2 commandes : Expéditeur qui vous donne le nom du dernier expéditeur du message et Message qui vous donne le message, cela peut servir, si vous voulez faire quelque chose qui n&#8217;est pas possible avec les interactions de déclencher un scénario sur l&#8217;arrivée d&#8217;un nouveau message par exemple et de récupérer la valeur de celui-ci (on peut par exemple imaginer faire lire le message sur des Sonos ou un Karotz)
 </td>
 </tr>
 </table>
@@ -574,7 +574,7 @@ Il existe par défaut 2 commandes : Expéditeur qui vous donne le nom du dernier
 </div>
 </div>
 <div class="paragraph">
-<p>À partir de la vous trouvez sur la gauche les canaux (channel) et les utilisateurs, au centre vous pouvez télécharger l&#8217;application Slack pour iOS, Android, Mac ou Windows</p>
+<p>À partir de la vous trouvez sur la gauche les canaux (channels) et les utilisateurs, au centre vous pouvez télécharger l&#8217;application Slack pour iOS, Android, Mac ou Windows</p>
 </div>
 </div>
 </div>
@@ -582,7 +582,7 @@ Il existe par défaut 2 commandes : Expéditeur qui vous donne le nom du dernier
 <h2 id="_ajout_du_webhook_sortant">4. Ajout du webhook sortant</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Les wekhook permettent à Slack d&#8217;informer Jeedom de l&#8217;arrivée d&#8217;un message et d&#8217;attendre la réponse de Jeedom pour vous la retransmettre, pour se faire il faut aller dans les paramètres :</p>
+<p>Les wekhook permettent à Slack d&#8217;informer Jeedom de l&#8217;arrivée d&#8217;un message et d&#8217;attendre la réponse de Jeedom pour vous la retransmettre, pour ce faire il faut aller dans les paramètres :</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -630,7 +630,7 @@ Il existe par défaut 2 commandes : Expéditeur qui vous donne le nom du dernier
 <p><strong>Channel</strong> : non obligatoire, permet de dire à Slack d&#8217;envoyer tout ce qui se trouve dans ce Channel à Jeedom. On peut par exemple créer un channel juste pour Jeedom (plus pratique que de mettre un mot déclencheur)</p>
 </li>
 <li>
-<p><strong>Trigger Word(s)</strong> : non obligatoire si vous avez mis un channel sinon il en faut absolument un. Ce champs permet de définir un mot déclencheur de l&#8217;envoi a Jeedom, par exemple si vous mettez Jeedom toute vos demandes devront commencer par Jeedom (ex : Jeedom combien fait-il dans le chambre)</p>
+<p><strong>Trigger Word(s)</strong> : non obligatoire si vous avez mis un channel sinon il en faut absolument un. Ce champ permet de définir un mot déclencheur de l&#8217;envoi à Jeedom, par exemple si vous mettez Jeedom toutes vos demandes devront commencer par Jeedom (ex : Jeedom combien fait-il dans le chambre)</p>
 </li>
 <li>
 <p><strong>URL(s)</strong> : URL à appeler, vous la trouvez sur la page de votre équipement sous Jeedom sous le nom de "URL de retour"</p>
@@ -649,7 +649,7 @@ Il existe par défaut 2 commandes : Expéditeur qui vous donne le nom du dernier
 </div>
 </div>
 <div class="paragraph">
-<p>Voilà c&#8217;est bon vous pouvez parler à Jeedom à travers Slack</p>
+<p>Voilà, vous pouvez parler à Jeedom au travers de Slack</p>
 </div>
 <div class="admonitionblock important">
 <table>
@@ -658,7 +658,7 @@ Il existe par défaut 2 commandes : Expéditeur qui vous donne le nom du dernier
 <i class="fa icon-important" title="Important"></i>
 </td>
 <td class="content">
-N&#8217;oubliez pas dans Jeedom de renseigner votre nom de domaine (nom de compagnie), sinon Jeedom refusera de vous répondre (attention ce champs est sensible à la case).
+N&#8217;oubliez pas dans Jeedom de renseigner votre nom de domaine (nom de compagnie), sinon Jeedom refusera de vous répondre (attention ce champ est sensible à la case).
 </td>
 </tr>
 </table>
@@ -681,7 +681,7 @@ N&#8217;oubliez pas dans Jeedom de renseigner votre nom de domaine (nom de compa
 <h2 id="_ajout_due_webhook_entrant">5. Ajout due webhook entrant</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Les webhooks entrants permettent à Jeedom de communiquer un message sur un channel (canal) ou directement à une personne. Sans ces webhook Jeedom ne pourront prendre l&#8217;initiative de vous envoyer un message, pour se faire il faut aller dans les paramètres :</p>
+<p>Les webhooks entrants permettent à Jeedom de communiquer un message sur un channel (canal) ou directement à une personne. Sans ces webhook Jeedom ne pourra pas prendre l&#8217;initiative de vous envoyer un message. Pour ce faire il faut aller dans les paramètres :</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -689,7 +689,7 @@ N&#8217;oubliez pas dans Jeedom de renseigner votre nom de domaine (nom de compa
 </div>
 </div>
 <div class="paragraph">
-<p>Il faut ensuite cliquer sur integration :</p>
+<p>Il faut ensuite cliquer sur intégration :</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -721,7 +721,7 @@ N&#8217;oubliez pas dans Jeedom de renseigner votre nom de domaine (nom de compa
 </div>
 </div>
 <div class="paragraph">
-<p>En bas de la page vous retrouvez les informations du webhook, il vous suffit de récupérer la valeur du champs "Webhook URL" et la copier dans le champs Webhook de votre commande.</p>
+<p>En bas de la page vous retrouvez les informations du webhook, il vous suffit de récupérer la valeur du champ "Webhook URL" et la copier dans le champ Webhook de votre commande.</p>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -730,13 +730,13 @@ N&#8217;oubliez pas dans Jeedom de renseigner votre nom de domaine (nom de compa
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-Dans le champs destination de la commande dans Jeedom vous pouvez spécifier un channel (ex #monchannel) ou un utilisateur (ex @toto).
+Dans le champ destination de la commande dans Jeedom vous pouvez spécifier un channel (ex #monchannel) ou un utilisateur (ex @toto).
 </td>
 </tr>
 </table>
 </div>
 <div class="paragraph">
-<p>Voilà sous Jeedom vous avez juste à sauvegarder et là vous pourrez à partir de Jeedom envoyer des messages sur Slack</p>
+<p>Voilà, sous Jeedom vous avez juste à sauvegarder et là vous pourrez à partir de Jeedom envoyer des messages sur Slack</p>
 </div>
 </div>
 </div>
@@ -752,7 +752,7 @@ Dans le champs destination de la commande dans Jeedom vous pouvez spécifier un 
 </div>
 </div>
 <div class="paragraph">
-<p>Ici en face de votre équipe, demander à Slack de générer le token, il va vous demander votre mots de passe puis vous renvoyer sur la même page, tout en bas demander à nouveau le token. Au bout de quelques secondes celui-ci va apparaître, il suffit de le copier dans le champs token sur Jeedom</p>
+<p>Ici en face de votre équipe, demander à Slack de générer le token, il va vous demander votre mot de passe puis vous renvoyer sur la même page, tout en bas demander à nouveau le token. Au bout de quelques secondes celui-ci va apparaître, il suffit de le copier dans le champ token sur Jeedom</p>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -772,7 +772,7 @@ Cette étape est optionnelle, elle est juste utile pour envoyer des captures de 
 <h2 id="_c_est_quoi_le_résultat">7. C&#8217;est quoi le résultat ?</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Voilà un exemple de ce qu&#8217;il est possible de faire une fois le plugin correctement et des interactions de créer :</p>
+<p>Voilà un exemple de ce qu&#8217;il est possible de faire une fois le plugin correctement configuré et les interactions créées :</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -786,7 +786,7 @@ Cette étape est optionnelle, elle est juste utile pour envoyer des captures de 
 <i class="fa icon-important" title="Important"></i>
 </td>
 <td class="content">
-Si vous utilisez la fonction "ask" des scénarios, il faut bien envoyer la demande sur un channel dont Jeedom écoute les réponses sinon votre demande "ask" tombera en "timeout"
+Si vous utilisez la fonction "ask" des scénarios, il faut bien envoyer la demande sur un channel sur lequel Jeedom écoute les réponses sinon votre demande "ask" tombera en "timeout"
 </td>
 </tr>
 </table>
