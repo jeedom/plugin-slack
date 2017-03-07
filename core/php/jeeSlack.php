@@ -33,7 +33,7 @@ if (!is_object($eqLogic)) {
 	echo json_encode(array('text' => __('Domaine inconnue : ', __FILE__) . init('team_domain')));
 	die();
 }
-$parameters = array();
+$parameters = array('plugin' => 'slack');
 $user = user::byLogin(init('user_name'));
 if (is_object($user)) {
 	$parameters['profile'] = init('user_name');
