@@ -54,5 +54,5 @@ $cmd_sender = $eqLogic->getCmd('info', 'sender');
 $cmd_sender->event(init('user_name'));
 
 $reply = interactQuery::tryToReply(trim(init('text')), $parameters);
-echo json_encode(array('text' => $reply));
+echo json_encode(array('text' => $reply['reply']));
 ?>
