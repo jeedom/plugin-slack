@@ -1,6 +1,6 @@
 {
     "plugins/slack/plugin_info/info.xml": {
-        "Plugin pour creer un bot sur slack": "Plugin to create slack bot's",
+        "Plugin pour creer un bot sur slack": "Plugin to create Slack bot",
         "Aucune": "None",
         "Plugin pour creer lier Jeedom à Slack": "Plugin to link Jeedom to Slack",
         "Plugin pour lier Jeedom à Slack": "Plugin to link Jeedom to Slack"
