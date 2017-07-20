@@ -40,8 +40,7 @@ if (is_object($user)) {
 }
 
 foreach ($eqLogic->getCmd('action') as $cmd) {
-	if ('#' . init('channel_name') == $cmd->getConfiguration('destination') && $cmd->getCache('storeVariable', 'none') != 'none') {
-		$cmd->askResponse(init('text'));
+	if ('#' . init('channel_name') == $cmd->getConfiguration('destination') && $cmd->askResponse(init('text'))) {
 		echo json_encode(array('text' => ''));
 		die();
 	}
