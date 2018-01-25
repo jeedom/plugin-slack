@@ -21,7 +21,7 @@ Une fois que vous cliquez sur l'un d'eux, vous obtenez :
 
 image::../images/slack4.PNG[]
 
-Vous retrouvez ici toute la configuration de votre équipement : 
+You can find here the full configuration of your device : 
 
 * *Nom de l'équipement* : nom de votre équipement Slack
 * *Activer* : permet de rendre votre équipement actif

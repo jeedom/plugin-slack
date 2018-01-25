@@ -15,7 +15,7 @@ Das sieht wie die Slack Plugin-Seite aus (hier bereits mit 1 Gerät) :
 image::../images/slack3.PNG[]
 
 [TIP]
-Comme à beaucoup d'endroits sur Jeedom, mettre la souris tout à gauche permet de faire apparaître un menu d'accès rapide (vous pouvez à partir de votre profil le laisser toujours visible).
+Wie an vielen Stellen in Jeedom kann mit dem Mauszeiger ganz links, ein Menü mit Schnellzugriff aufgerufen werden (Sie können in Ihrem Profil immer sichtbar einstellen).  
 
 Sobald Sie eines davon anklicken, erhalten Sie : 
 

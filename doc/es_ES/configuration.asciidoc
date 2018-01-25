@@ -1,10 +1,10 @@
-== Configuration du plugin
+== Configuración del plugin
 
 Après téléchargement du plugin, il vous faut l'activer, celui-ci ne nécessite aucune autre configuration.
 
 image::../images/slack1.PNG[]
 
-== Configuration des équipements
+== Configuración de dispositivos
 
 La configuration des équipements Slack est accessible à partir du menu Plugins : 
 
@@ -21,11 +21,11 @@ Une fois que vous cliquez sur l'un d'eux, vous obtenez :
 
 image::../images/slack4.PNG[]
 
-Vous retrouvez ici toute la configuration de votre équipement : 
+Aquí encontrará toda la configuración de su dispositivo: 
 
 * *Nom de l'équipement* : nom de votre équipement Slack
-* *Activer* : permet de rendre votre équipement actif
-* *Visible* : le rend visible sur le dashboard
+* *Activar* : permite activar su dispositivo
+* *Visible* : lo hace visible en el Dashboard
 * *Domaine* : nom de domaine de votre Slack (permet notamment si vous avez plusieurs Slack de les différencier)
 * *Authentification token* : token de l'api Slack, utile uniquement pour l'envoi de fichiers (capture d'une camera par exemple), voir plus bas la méthode pour le récupérer
 * *URL de retour* : c'est l'URL qui faudra donner dans le webhook de Slack (attention il faut que votre Jeedom soit accessible de l'extérieur)
@@ -35,9 +35,9 @@ En dessous vous retrouvez la configuration des commandes :
 * *Nom* : nom de la commande
 * *Webhook* : URL à appeler pour envoyer un message sur Slack
 * *Destination* : non obligatoire, permet de forcer l'envoi d'un message vers un channel (canal) ou un utilisateur
-* Configuration avancée (petites roues crantées) : permet d'afficher la configuration avancée de la commande (méthode d'historisation, widget...)
-* Tester : permet de tester la commande
-* Supprimer (signe -) : permet de supprimer la commande
+* Configuración avanzada (pequeñas ruedas dentadas): muestra la configuración avanzada de la orden (método de historico, widget...)
+* Probar : le permite probar la orden
+* Eliminar (signo - ) : permite borrar la orden
 
 [TIP]
 Il existe par défaut 2 commandes : Expéditeur qui vous donne le nom du dernier expéditeur du message et Message qui vous donne le message, cela peut servir, si vous voulez faire quelque chose qui n'est pas possible avec les interactions de déclencher un scénario sur l'arrivée d'un nouveau message par exemple et de récupérer la valeur de celui-ci (on peut par exemple imaginer faire lire le message sur des Sonos ou un Karotz)
@@ -92,7 +92,7 @@ image::../images/slack12.PNG[]
 
 Voilà, vous pouvez parler à Jeedom au travers de Slack
 
-[IMPORTANT]
+[IMPORTANTE]
 N'oubliez pas dans Jeedom de renseigner votre nom de domaine (nom de compagnie), sinon Jeedom refusera de vous répondre (attention ce champ est sensible à la case).
 
 [TIP]
@@ -144,5 +144,5 @@ Voilà un exemple de ce qu'il est possible de faire une fois le plugin correctem
 
 image::../images/slack16.PNG[]
 
-[IMPORTANT]
+[IMPORTANTE]
 Si vous utilisez la fonction "ask" des scénarios, il faut bien envoyer la demande sur un channel sur lequel Jeedom écoute les réponses sinon votre demande "ask" tombera en "timeout"
