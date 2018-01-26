@@ -1,0 +1,44 @@
+{
+    "plugins/slack/plugin_info/info.xml": {
+        "Plugin pour creer un bot sur slack": "たるみのボットを作成するためのプラグイン",
+        "Aucune": "いいえ",
+        "Plugin pour creer lier Jeedom à Slack": "Jeedomスラックへのリンクを作成するためのプラグイン",
+        "Plugin pour lier Jeedom à Slack": "Jeedomスラックにリンクするプラグイン"
+    },
+    "plugins/slack/core/class/slack.class.php": {
+        "Message": "メッセージ",
+        "Expediteur": "送信者"
+    },
+    "plugins/slack/desktop/php/slack.php": {
+        "Ajouter un template": "テンプレートを追加します。",
+        "Rechercher": "検索",
+        "Mes templates": "私のテンプレート",
+        "Général": "一般的な",
+        "Nom de l'équipement Slack": "スラック機器に名前を付けます",
+        "Nom de l'équipement slack": "たるみの機器に名前を付けます",
+        "Activer": "アクティブ",
+        "Visible": "目に見えます",
+        "Domaine": "ドメイン",
+        "Nom du domaine": "ドメイン名",
+        "URL de retour": "リターンURL",
+        "Commande": "オーダー",
+        "Ajouter une commande": "コマンドの追加",
+        "Nom": "名前",
+        "Webhook": "ウェブフック",
+        "Destination": "先",
+        "Options": "オプション",
+        "Supprimer": "取り除きます",
+        "Sauvegarder": "セーブ",
+        "Ajouter un Slack": "スラックを追加",
+        "Mes Slack": "私のスラック",
+        "Authentification tocken": "tocken認証",
+        "Token": "トークン",
+        "Authentification token": "トークン認証"
+    },
+    "plugins/slack/desktop/js/slack.js": {
+        "Nom": "名前",
+        "Webhook": "ウェブフック",
+        "Destination": "先",
+        "Tester": "テスト"
+    }
+}

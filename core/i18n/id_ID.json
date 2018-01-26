@@ -1,44 +1,44 @@
 {
     "plugins/slack/plugin_info/info.xml": {
-        "Plugin pour creer un bot sur slack": "Plugin pour creer un bot sur slack",
+        "Plugin pour creer un bot sur slack": "Plugin untuk membuat bot di slack",
         "Aucune": "Tak ada",
-        "Plugin pour creer lier Jeedom à Slack": "Plugin pour creer lier Jeedom à Slack",
-        "Plugin pour lier Jeedom à Slack": "Plugin pour lier Jeedom à Slack"
+        "Plugin pour creer lier Jeedom à Slack": "Plugin untuk membuat link ke Jeedom Slack",
+        "Plugin pour lier Jeedom à Slack": "Plugin untuk link ke Jeedom Slack"
     },
     "plugins/slack/core/class/slack.class.php": {
-        "Message": "Message",
-        "Expediteur": "Expediteur"
+        "Message": "pesan",
+        "Expediteur": "pengirim"
     },
     "plugins/slack/desktop/php/slack.php": {
         "Ajouter un template": "menambahkan template",
         "Rechercher": "Mencari",
-        "Mes templates": "Mes templates",
+        "Mes templates": "template saya",
         "Général": "Umum",
-        "Nom de l'équipement Slack": "Nom de l'équipement Slack",
-        "Nom de l'équipement slack": "Nom de l'équipement slack",
+        "Nom de l'équipement Slack": "Nama peralatan Slack",
+        "Nom de l'équipement slack": "Nama peralatan kendur",
         "Activer": "Mengaktifkan",
         "Visible": "Terlihat",
         "Domaine": "domain",
-        "Nom du domaine": "Nom du domaine",
+        "Nom du domaine": "Nama domain",
         "URL de retour": "URL Kembali",
-        "Commande": "Commande",
+        "Commande": "pesanan",
         "Ajouter une commande": "Tambahan pesanan",
         "Nom": "Nama",
-        "Webhook": "Webhook",
-        "Destination": "Destination",
+        "Webhook": "WebHook",
+        "Destination": "tujuan",
         "Options": "Pilihan",
         "Supprimer": "Menghapus",
         "Sauvegarder": "Menyimpan",
-        "Ajouter un Slack": "Ajouter un Slack",
-        "Mes Slack": "Mes Slack",
-        "Authentification tocken": "Authentification tocken",
+        "Ajouter un Slack": "menambahkan Slack",
+        "Mes Slack": "Slack saya",
+        "Authentification tocken": "otentikasi TOCKEN",
         "Token": "Token",
-        "Authentification token": "Authentification token"
+        "Authentification token": "otentikasi tanda"
     },
     "plugins/slack/desktop/js/slack.js": {
         "Nom": "Nama",
-        "Webhook": "Webhook",
-        "Destination": "Destination",
+        "Webhook": "WebHook",
+        "Destination": "tujuan",
         "Tester": "Coba"
     }
 }

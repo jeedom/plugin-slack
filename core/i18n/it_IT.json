@@ -1,44 +1,44 @@
 {
     "plugins/slack/plugin_info/info.xml": {
-        "Plugin pour creer un bot sur slack": "Plugin pour creer un bot sur slack",
+        "Plugin pour creer un bot sur slack": "Plugin per creare un bot su slack",
         "Aucune": "Nessuno",
-        "Plugin pour creer lier Jeedom à Slack": "Plugin pour creer lier Jeedom à Slack",
-        "Plugin pour lier Jeedom à Slack": "Plugin pour lier Jeedom à Slack"
+        "Plugin pour creer lier Jeedom à Slack": "Plugin per creare link per Jeedom Slack",
+        "Plugin pour lier Jeedom à Slack": "Plugin per collegare Jeedom Slack"
     },
     "plugins/slack/core/class/slack.class.php": {
         "Message": "Messaggio",
-        "Expediteur": "Expediteur"
+        "Expediteur": "mittente"
     },
     "plugins/slack/desktop/php/slack.php": {
         "Ajouter un template": "Aggiungere template",
         "Rechercher": "Cerca",
-        "Mes templates": "Mes templates",
+        "Mes templates": "i miei modelli",
         "Général": "Principale",
-        "Nom de l'équipement Slack": "Nom de l'équipement Slack",
-        "Nom de l'équipement slack": "Nom de l'équipement slack",
+        "Nom de l'équipement Slack": "Nome attrezzature Slack",
+        "Nom de l'équipement slack": "Nome attrezzature slack",
         "Activer": "Attiva",
         "Visible": "Visibile",
         "Domaine": "Dominio",
-        "Nom du domaine": "Nom du domaine",
+        "Nom du domaine": "Domain Name",
         "URL de retour": "URL di ritorno",
         "Commande": "Comando",
         "Ajouter une commande": "Aggiungi un comando",
         "Nom": "Nome",
-        "Webhook": "Webhook",
-        "Destination": "Destination",
+        "Webhook": "webhook",
+        "Destination": "destinazione",
         "Options": "Opzioni",
         "Supprimer": "Elimina",
         "Sauvegarder": "Salva",
-        "Ajouter un Slack": "Ajouter un Slack",
-        "Mes Slack": "Mes Slack",
-        "Authentification tocken": "Authentification tocken",
-        "Token": "Token",
-        "Authentification token": "Authentification token"
+        "Ajouter un Slack": "Aggiungere Slack",
+        "Mes Slack": "il mio Slack",
+        "Authentification tocken": "autenticazione tocken",
+        "Token": "segno",
+        "Authentification token": "token di autenticazione"
     },
     "plugins/slack/desktop/js/slack.js": {
         "Nom": "Nome",
-        "Webhook": "Webhook",
-        "Destination": "Destination",
+        "Webhook": "webhook",
+        "Destination": "destinazione",
         "Tester": "Prova"
     }
 }
