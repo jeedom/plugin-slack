@@ -10,7 +10,7 @@ nécessite aucune autre configuration.
 
 ![slack1](../images/slack1.PNG)
 
-Configuration des équipements 
+Configuración del dispositivo
 =============================
 
 La configuration des équipements Slack est accessible à partir du menu
