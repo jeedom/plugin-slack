@@ -2,7 +2,7 @@ Ce plugin permet d’établir une connexion entre Slack et Jeedom pour
 envoyer des alertes à partir de Jeedom ou discuter avec Jeedom (en
 utilisant les interactions).
 
-Configuration du plugin 
+configuración del plugin
 =======================
 
 Après téléchargement du plugin, il vous faut l’activer, celui-ci ne
