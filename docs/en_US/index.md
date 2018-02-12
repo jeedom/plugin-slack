@@ -36,9 +36,9 @@ You can find here the full configuration of your device :
 
 -   **Nom de l’équipement** : nom de votre équipement Slack
 
--   **Activer** : permet de rendre votre équipement actif
+-   **Enable**: makes your equipment active
 
--   **Visible** : le rend visible sur le dashboard
+-   **Visible**: makes it visible on the dashboard
 
 -   **Domaine** : nom de domaine de votre Slack (permet notamment si
     vous avez plusieurs Slack de les différencier)
@@ -60,13 +60,13 @@ En dessous vous retrouvez la configuration des commandes :
 -   **Destination** : non obligatoire, permet de forcer l’envoi d’un
     message vers un channel (canal) ou un utilisateur
 
--   Configuration avancée (petites roues crantées) : permet d’afficher
+-   Advanced configuration (small wheels): displays
     la configuration avancée de la commande (méthode
     d’historisation, widget…​)
 
--   Tester : permet de tester la commande
+-   Test: test the command
 
--   Supprimer (signe -) : permet de supprimer la commande
+-   Delete (sign -): delete the command
 
 > **Tip**
 >
