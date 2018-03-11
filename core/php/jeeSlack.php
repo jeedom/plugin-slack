@@ -54,4 +54,4 @@ $cmd_sender->event(init('user_name'));
 
 $reply = interactQuery::tryToReply(trim(init('text')), $parameters);
 echo json_encode(array('text' => $reply['reply']));
-?>
+
