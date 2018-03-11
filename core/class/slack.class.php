@@ -141,4 +141,3 @@ class slackCmd extends cmd {
 	/*     * **********************Getteur Setteur*************************** */
 }
 
-?>
