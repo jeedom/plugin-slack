@@ -100,7 +100,8 @@ class slackCmd extends cmd {
 		}
 		if (!isset($_options['files']) || !is_array($_options['files'])) {
 			$request_http->setPost(array('payload' => json_encode($post)));
-			$request_http->exec(5, 3);
+			$result = $request_http->exec(5, 3);
+			log::add('slack','debug',json_encode($result,true));
 		}
 		if (isset($_options['files']) && is_array($_options['files'])) {
 			$eqLogic = $this->getEqLogic();
@@ -130,11 +131,8 @@ class slackCmd extends cmd {
 					$post['title'] = trim($_options['title'] . ' ' . $_options['message']);
 				}
 				$request_http->setPost($post);
-				try {
-					$request_http->exec(60, 1);
-				} catch (Exception $e) {
-
-				}
+				$result = $request_http->exec(60, 1);
+				log::add('slack','debug',json_encode($result,true));
 			}
 		}
 
