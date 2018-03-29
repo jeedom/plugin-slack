@@ -91,6 +91,9 @@ class slackCmd extends cmd {
 
 	public function execute($_options = array()) {
 		$request_http = new com_http(trim($this->getConfiguration('webhook')));
+		if($_options['title'] == $_options['message']){
+			$_options['title'] = '';
+		}
 		if (isset($_options['answer'])) {
 			$_options['message'] .= ' (' . implode(';', $_options['answer']) . ')';
 		}
@@ -141,4 +144,3 @@ class slackCmd extends cmd {
 	/*     * **********************Getteur Setteur*************************** */
 }
 
-?>

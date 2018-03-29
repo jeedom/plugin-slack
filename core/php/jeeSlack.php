@@ -51,7 +51,11 @@ $cmd_text = $eqLogic->getCmd('info', 'text');
 $cmd_text->event(trim(init('text')));
 $cmd_sender = $eqLogic->getCmd('info', 'sender');
 $cmd_sender->event(init('user_name'));
+if(preg_match('/http(.*?)\.slack\.com\/files/i', trim(init('text')))){
+	echo json_encode(array('text' => ''));	
+}else{
+	$reply = interactQuery::tryToReply(trim(init('text')), $parameters);
+	echo json_encode(array('text' => $reply['reply']));	
+}
 
-$reply = interactQuery::tryToReply(trim(init('text')), $parameters);
-echo json_encode(array('text' => $reply['reply']));
-?>
+
