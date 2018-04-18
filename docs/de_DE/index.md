@@ -62,8 +62,8 @@ En dessous vous retrouvez la configuration des commandes :
     message vers un channel (canal) ou un utilisateur
 
 -   Advanced Configuration (kleine Zahnräder): Zeigt
-    la configuration avancée de la commande (méthode
-    d’historisation, widget…​)
+    Konfiguration des Befehls anzuzeigen (Methode der
+    Archivierung, Widget ...)
 
 -   Test: prüft den Befehl
 
