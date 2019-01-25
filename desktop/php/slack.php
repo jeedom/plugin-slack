@@ -2,8 +2,9 @@
 if (!isConnect('admin')) {
 	throw new Exception('{{401 - Accès non autorisé}}');
 }
-sendVarToJS('eqType', 'slack');
-$eqLogics = eqLogic::byType('slack');
+$plugin = plugin::byId('slack');
+sendVarToJS('eqType', $plugin->getId());
+$eqLogics = eqLogic::byType($plugin->getId());
 ?>
 
 <div class="row row-overflow">
@@ -36,7 +37,7 @@ foreach ($eqLogics as $eqLogic) {
 foreach ($eqLogics as $eqLogic) {
 	$opacity = ($eqLogic->getIsEnable()) ? '' : jeedom::getConfiguration('eqLogic:style:noactive');
 	echo '<div class="eqLogicDisplayCard cursor" data-eqLogic_id="' . $eqLogic->getId() . '" style="text-align: center; background-color : #ffffff; height : 200px;margin-bottom : 10px;padding : 5px;border-radius: 2px;width : 160px;margin-left : 10px;' . $opacity . '" >';
-	echo '<img src="plugins/slack/doc/images/slack_icon.png" height="105" width="95" />';
+	echo '<img src="' . $plugin->getPathImgIcon() . '" height="105" width="95" />';
 	echo "<br>";
 	echo '<span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;">' . $eqLogic->getHumanName(true, true) . '</span>';
 	echo '</div>';
@@ -46,9 +47,21 @@ foreach ($eqLogics as $eqLogic) {
 </div>
 
 <div class="col-lg-10 col-md-9 col-sm-8 eqLogic" style="border-left: solid 1px #EEE; padding-left: 25px;display: none;">
+	 <a class="btn btn-success eqLogicAction pull-right" data-action="save"><i class="fa fa-check-circle"></i> {{Sauvegarder}}</a>
+  	 <a class="btn btn-danger eqLogicAction pull-right" data-action="remove"><i class="fa fa-minus-circle"></i> {{Supprimer}}</a>
+  	 <a class="btn btn-default eqLogicAction pull-right" data-action="configure"><i class="fa fa-cogs"></i> {{Avancée}}</a>
+  	 <a class="btn btn-default eqLogicAction pull-right" data-action="copy"><i class="fa fa-copy"></i> {{Dupliquer}}</a>
+	<ul class="nav nav-tabs" role="tablist">
+		<li role="presentation"><a class="eqLogicAction cursor" aria-controls="home" role="tab" data-action="returnToThumbnailDisplay"><i class="fa fa-arrow-circle-left"></i></a></li>
+		<li role="presentation" class="active"><a href="#eqlogictab" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-tachometer"></i> {{Equipement}}</a></li>
+		<li role="presentation"><a href="#commandtab" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-list-alt"></i> {{Commandes}}</a></li>
+	</ul>
+
+			<div class="tab-content" style="height:calc(100% - 50px);overflow:auto;overflow-x: hidden;">
+			<div role="tabpanel" class="tab-pane active" id="eqlogictab">
+				<br/>
   <form class="form-horizontal">
     <fieldset>
-      <legend><i class="fa fa-arrow-circle-left eqLogicAction cursor" data-action="returnToThumbnailDisplay"></i> {{Général}}  <i class='fa fa-cogs eqLogicAction pull-right cursor expertModeVisible' data-action='configure'></i></legend>
       <div class="form-group">
         <label class="col-sm-2 control-label">{{Nom de l'équipement Slack}}</label>
         <div class="col-sm-3">
@@ -97,7 +110,9 @@ foreach (object::all() as $object) {
   </fieldset>
 </form>
 
-<legend>{{Commande}}</legend>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="commandtab">
+				<br/>
 <a class="btn btn-success btn-sm cmdAction" data-action="add"><i class="fa fa-plus-circle"></i> {{Ajouter une commande}}</a><br/><br/>
 <table id="table_cmd" class="table table-bordered table-condensed">
   <thead>
@@ -108,15 +123,8 @@ foreach (object::all() as $object) {
   <tbody>
   </tbody>
 </table>
-
-<form class="form-horizontal">
-  <fieldset>
-    <div class="form-actions">
-      <a class="btn btn-danger eqLogicAction" data-action="remove"><i class="fa fa-minus-circle"></i> {{Supprimer}}</a>
-      <a class="btn btn-success eqLogicAction" data-action="save"><i class="fa fa-check-circle"></i> {{Sauvegarder}}</a>
-    </div>
-  </fieldset>
-</form>
+	</div>
+		</div>
 
 </div>
 </div>

@@ -29,7 +29,7 @@ Voilà à quoi ressemble la page du plugin Slack (ici avec déjà 1
 > permet de faire apparaître un menu d’accès rapide (vous pouvez à
 > partir de votre profil le laisser toujours visible).
 
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Sobald Sie eines davon anklicken, erhalten Sie :
 
 ![slack4](../images/slack4.PNG)
 
@@ -62,8 +62,8 @@ En dessous vous retrouvez la configuration des commandes :
     message vers un channel (canal) ou un utilisateur
 
 -   Advanced Configuration (kleine Zahnräder): Zeigt
-    la configuration avancée de la commande (méthode
-    d’historisation, widget…​)
+    Konfiguration des Befehls anzuzeigen (Methode der
+    Archivierung, Widget ...)
 
 -   Test: prüft den Befehl
 

@@ -1,4 +1,6 @@
-- Correction de bugs
+# 29/03/2018
+
+- Corrección de errores
 
 # 11/03/2018
 
