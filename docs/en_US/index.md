@@ -28,7 +28,7 @@ Voilà à quoi ressemble la page du plugin Slack (ici avec déjà 1
 > permet de faire apparaître un menu d’accès rapide (vous pouvez à
 > partir de votre profil le laisser toujours visible).
 
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Once you click on one of them, you get:
 
 ![slack4](../images/slack4.PNG)
 
@@ -51,7 +51,7 @@ You can find here the full configuration of your device :
     Slack (attention il faut que votre Jeedom soit accessible
     de l’extérieur)
 
-En dessous vous retrouvez la configuration des commandes :
+Below you find the command configuration:
 
 -   **Name**: name of the command
 
