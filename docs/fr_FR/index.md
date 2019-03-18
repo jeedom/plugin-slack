@@ -208,7 +208,7 @@ Récupération du token
 Voila comment récupérer votre token pour que Jeedom puisse envoyer des
 fichiers sur Slack, et en particulier des captures des caméras par
 exemple. Tout d’abord il faut aller
-[ici](https://api.slack.com/web?sudo=1), puis tout en bas aller sur :
+[ici](https://api.slack.com/custom-integrations/legacy-tokens), puis tout en bas aller sur :
 
 ![slack17](../images/slack17.PNG)
 
