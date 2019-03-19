@@ -1,3 +1,7 @@
+# 18/03/2019
+
+- Aktualisierung des Dokuments
+
 # 25/01/2019
 
 - Correction de bug (pour le ask)
