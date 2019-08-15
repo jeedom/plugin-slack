@@ -1,3 +1,7 @@
+# 13/08/2019
+
+- Support de PHP 7.3
+
 # 18/03/2019
 
 - Actualización de la documentación
