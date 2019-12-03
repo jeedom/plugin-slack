@@ -104,7 +104,7 @@ $eqLogics = eqLogic::byType($plugin->getId());
 							<div class="col-sm-9 callback">
 								<span>
 									<?php
-									echo network::getNetworkAccess('external') . '/core/api/jeeApi.php?plugin=virtual&apikey=' . jeedom::getApiKey($plugin->getId()) . '&type=virtual&id=#cmd_id#&value=#value#';
+									echo network::getNetworkAccess('external') . '/core/api/jeeApi.php?plugin=virtual&apikey=' . jeedom::getApiKey($plugin->getId()) . '&type=slack&id=#cmd_id#&value=#value#';
 									?>
 								</span>
 							</div>
