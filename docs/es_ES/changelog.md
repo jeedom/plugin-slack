@@ -1,3 +1,7 @@
+# 03/12/2019
+
+- Correction d'un bug sur la génération de l'url de contact de slack pour jeedom
+
 # 13/08/2019
 
 - Support de PHP 7.3
