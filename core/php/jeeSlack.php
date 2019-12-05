@@ -17,7 +17,7 @@
  */
 header('Content-type: application/json');
 require_once dirname(__FILE__) . "/../../../../core/php/core.inc.php";
-if (!jeedom::apiAccess(init('apikey'), 'telegram')) {
+if (!jeedom::apiAccess(init('apikey'), 'slack')) {
 	echo __('Clef API non valide, vous n\'êtes pas autorisé à effectuer cette action (slack)', __FILE__);
 	die();
 }
