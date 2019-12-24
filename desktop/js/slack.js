@@ -28,7 +28,6 @@
     tr += '</td>';
     tr += '<td>';
     tr += '<input class="cmdAttr form-control input-sm" data-l1key="name" style="width : 140px;" placeholder="{{Nom}}">';
-    tr += '<input class="cmdAttr" data-l1key="id" style="display:none;" />';
     if (isset(_cmd.type) &&  _cmd.type == 'info') {
       tr += '<input class="cmdAttr" data-l1key="type" value="info" style="display:none;" />';
   }else{
