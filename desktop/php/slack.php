@@ -122,10 +122,11 @@ $eqLogics = eqLogic::byType($plugin->getId());
                 <table id="table_cmd" class="table table-bordered table-condensed">
 					<thead>
 						<tr>
-							<th style="width: 100px;">{{Nom}}</th>
-							<th style="width: 450px;">{{Webhook}}</th>
+                            <th style="width: 50px;"> ID</th>
+                            <th style="width: 230px;">{{Nom}}</th>
+                            <th style="width: 450px;">{{Webhook}}</th>
                             <th style="width: 450px;">{{Destination}}</th>
-							<th style="width: 80px;">{{Options}}</th>
+                            <th style="width: 150px;"></th>
 						</tr>
 					</thead>
 					<tbody>
@@ -138,6 +139,7 @@ $eqLogics = eqLogic::byType($plugin->getId());
 		
 	</div>
 </div>
-
-<?php include_file('desktop', 'slack', 'js', 'slack');?>
-<?php include_file('core', 'plugin.template', 'js');?>
+<?php 
+    include_file('desktop', 'slack', 'js', 'slack');
+    include_file('core', 'plugin.template', 'js');
+?>
