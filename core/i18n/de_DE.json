@@ -1,41 +1,43 @@
 {
-    "plugins/slack/plugin_info/info.xml": {
-        "Plugin pour creer un bot sur slack": "Plugin, um auf slack ein bot zu schaffen ",
-        "Aucune": "keine",
-        "Plugin pour creer lier Jeedom à Slack": "Plugin für creer, Jeedom mit Slack zu verbinden",
-        "Plugin pour lier Jeedom à Slack": "Plugin, um Jeedom mit Slack zu verlinken"
-    },
-    "plugins/slack/core/class/slack.class.php": {
-        "Message": "Nachricht",
-        "Expediteur": "Absender"
-    },
-    "plugins/slack/desktop/php/slack.php": {
-        "Ajouter un template": "Vorlage hinzufügen",
-        "Rechercher": "Suchen nach",
-        "Mes templates": "Meine Vorlage",
-        "Général": "Allgemein",
-        "Nom de l'équipement Slack": "Name des Slack Gerätes",
-        "Nom de l'équipement slack": "Name des Slack Gerätes",
-        "Activer": "aktivieren",
-        "Visible": "Sichtbar",
-        "Domaine": "Domaine",
-        "Nom du domaine": "Domaine Name",
-        "URL de retour": "URL zurück",
-        "Commande": "Befehl",
-        "Ajouter une commande": "Befehl hinzufügen",
+    "desktop\/js\/slack.js": {
         "Nom": "Name",
         "Webhook": "Webhook",
         "Destination": "Ziel",
-        "Options": "Optionen",
-        "Supprimer": "Löschen",
-        "Sauvegarder": "Speichern",
-        "Ajouter un Slack": "Slack hinzufügen",
-        "Mes Slack": "Mein Slack",
-        "Authentification tocken": "Tocken Authentifizierung",
-        "Token": "Zeichen",
-        "Authentification token": "Tocken Authentifizierung"
+        "Tester": "Test"
     },
-    "plugins/slack/desktop/js/slack.js": {
+    "desktop\/php\/slack.php": {
+        "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
+        "Gestion": "Management",
+        "Ajouter": "hinzufügen",
+        "Mes Slack": "Mein Slack",
+        "Rechercher": "Suchen nach",
+        "Configuration avancée": "Erweiterte Konfiguration",
+        "Dupliquer": "Duplikat",
+        "Sauvegarder": "Speichern",
+        "Supprimer": "Löschen",
+        "Equipement": "Ausrüstung",
+        "Commandes": "Befehle",
+        "Nom de l'équipement virtuel": "Name des virtuellen Geräts",
+        "Objet parent": "Übergeordnetes Objekt",
+        "Aucun": "keine",
+        "Catégorie": "Kategorie",
+        "Activer": "aktivieren",
+        "Visible": "Sichtbar",
+        "Domaine": "Domain",
+        "Nom du domaine": "Domaine Name",
+        "Authentification token": "Tocken Authentifizierung",
+        "Token": "Zeichen",
+        "URL de retour": "URL zurück",
+        "Ajouter une commande": "Befehl hinzufügen",
+        "Nom": "Name",
+        "Webhook": "Webhook",
+        "Destination": "Ziel"
+    },
+    "core\/php\/jeeSlack.php": {
+        "Clef API non valide": "Ungültiger API-Schlüssel",
+        "Domaine inconnue : ": "Unbekannte Domain:"
+    },
+    "core\/class\/slack.class.php": {
         "Nom": "Name",
         "Webhook": "Webhook",
         "Destination": "Ziel",

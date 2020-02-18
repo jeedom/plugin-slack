@@ -1,43 +1,45 @@
 {
-    "plugins/slack/plugin_info/info.xml": {
-        "Plugin pour creer un bot sur slack": "Plugin para crear un bot en slack",
-        "Aucune": "Ninguna",
-        "Plugin pour creer lier Jeedom à Slack": "Plugin para enlazar Jeedom a Slack",
-        "Plugin pour lier Jeedom à Slack": "Plugin para enlazar Jeedom a Slack"
+    "desktop\/js\/slack.js": {
+        "Nom": "Nombre",
+        "Webhook": "web hook",
+        "Destination": "Destinación",
+        "Tester": "Probar"
     },
-    "plugins/slack/core/class/slack.class.php": {
-        "Message": "Mensaje",
-        "Expediteur": "Remitente"
-    },
-    "plugins/slack/desktop/php/slack.php": {
-        "Ajouter un template": "Añadir una plantilla",
+    "desktop\/php\/slack.php": {
+        "401 - Accès non autorisé": "401 - Acceso no autorizado",
+        "Gestion": "administración",
+        "Ajouter": "añadir",
+        "Mes Slack": "Mis Slack",
         "Rechercher": "Buscar",
-        "Mes templates": "Mis plantillas",
-        "Général": "General",
-        "Nom de l'équipement Slack": "Nombre del dispositivo Slack",
-        "Nom de l'équipement slack": "Nombre del dispositivo slack",
+        "Configuration avancée": "Configuración avanzada",
+        "Dupliquer": "duplicado",
+        "Sauvegarder": "Guardar",
+        "Supprimer": "Borrar",
+        "Equipement": "equipo",
+        "Commandes": "comandos",
+        "Nom de l'équipement virtuel": "Nombre del dispositivo virtual.",
+        "Objet parent": "Objeto padre",
+        "Aucun": "no",
+        "Catégorie": "categoría",
         "Activer": "Activar",
-        "Visible": "Visible",
+        "Visible": "visible",
         "Domaine": "Dominio",
         "Nom du domaine": "Nombre del dominio",
+        "Authentification token": "Autenticación token",
+        "Token": "simbólico",
         "URL de retour": "URL de retorno",
-        "Commande": "Comando",
         "Ajouter une commande": "Añadir un comando",
         "Nom": "Nombre",
-        "Webhook": "Webhook",
-        "Destination": "Destinación",
-        "Options": "Opciones",
-        "Supprimer": "Borrar",
-        "Sauvegarder": "Guardar",
-        "Ajouter un Slack": "Añadir un Slack",
-        "Mes Slack": "Mis Slack",
-        "Authentification tocken": "Autenticación tocken",
-        "Token": "Token",
-        "Authentification token": "Autenticación token"
+        "Webhook": "web hook",
+        "Destination": "Destinación"
     },
-    "plugins/slack/desktop/js/slack.js": {
+    "core\/php\/jeeSlack.php": {
+        "Clef API non valide": "Clave API no válida",
+        "Domaine inconnue : ": "Dominio desconocido:"
+    },
+    "core\/class\/slack.class.php": {
         "Nom": "Nombre",
-        "Webhook": "Webhook",
+        "Webhook": "web hook",
         "Destination": "Destinación",
         "Tester": "Probar"
     }
