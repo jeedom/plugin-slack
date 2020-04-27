@@ -1,46 +1,44 @@
 {
-    "desktop\/js\/slack.js": {
-        "Nom": "İsim",
-        "Webhook": "Webhook",
-        "Destination": "Gidilecek",
-        "Tester": "Dene"
-    },
-    "desktop\/php\/slack.php": {
-        "401 - Accès non autorisé": "401 - Accès non autorisé",
-        "Gestion": "Gestion",
-        "Ajouter": "Ajouter",
-        "Mes Slack": "Slack'lerim",
+    "plugins\/slack\/desktop\/php\/slack.php": {
+        "401 - Accès non autorisé": "401 - Yetkisiz erişim",
+        "Gestion": "Idare",
+        "Ajouter": "Ekle",
+        "Mes Slack": "",
         "Rechercher": "Arayın",
-        "Configuration avancée": "Configuration avancée",
-        "Dupliquer": "Dupliquer",
+        "Configuration avancée": "Gelişmiş ayarlar",
+        "Dupliquer": "Kopyala",
         "Sauvegarder": "Kaydet",
         "Supprimer": "Sil",
-        "Equipement": "Equipement",
-        "Commandes": "Commandes",
-        "Nom de l'équipement virtuel": "Nom de l'équipement virtuel",
-        "Objet parent": "Objet parent",
-        "Aucun": "Aucun",
-        "Catégorie": "Catégorie",
-        "Activer": "Etkinleştirmek",
+        "Equipement": "Cihaz",
+        "Commandes": "Komutalar",
+        "Nom de l'équipement virtuel": "",
+        "Objet parent": "Üst nesne",
+        "Aucun": "Hiçbir",
+        "Catégorie": "Kategori",
+        "Activer": "Etkinleştir",
         "Visible": "Görülebilir",
         "Domaine": "Domen",
-        "Nom du domaine": "Domen adı",
-        "Authentification token": "Token kimlik doğrulamasi",
-        "Token": "Token",
+        "Nom du domaine": "",
+        "Authentification token": "",
+        "Token": "",
         "URL de retour": "Dönüş URL",
         "Ajouter une commande": "Komuta ekle",
         "Nom": "İsim",
-        "Webhook": "Webhook",
-        "Destination": "Gidilecek"
+        "Webhook": "",
+        "Destination": ""
     },
-    "core\/php\/jeeSlack.php": {
-        "Clef API non valide": "Clef API non valide",
-        "Domaine inconnue : ": "Domaine inconnue : "
-    },
-    "core\/class\/slack.class.php": {
+    "plugins\/slack\/desktop\/js\/slack.js": {
         "Nom": "İsim",
-        "Webhook": "Webhook",
-        "Destination": "Gidilecek",
-        "Tester": "Dene"
+        "Webhook": "",
+        "Destination": "",
+        "Tester": "Test et"
+    },
+    "plugins\/slack\/core\/php\/jeeSlack.php": {
+        "Clef API non valide, vous n\\'êtes pas autorisé à effectuer cette action (slack)": "",
+        "Domaine inconnue : ": ""
+    },
+    "plugins\/slack\/core\/class\/slack.class.php": {
+        "Message": "Mesaj",
+        "Expediteur": ""
     }
 }

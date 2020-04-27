@@ -2,7 +2,7 @@
 
 .
 
-Plugin Konfiguration 
+Configuração do plugin 
 =======================
 
 
@@ -10,66 +10,66 @@ Plugin Konfiguration
 
 ![slack1](../images/slack1.PNG)
 
-Gerätekonfiguration 
+ 
 =============================
 
 
-Plugins :
+ :
 
 ![slack2](../images/slack2.PNG)
 
 
-Ausrüstung) :
+ :
 
 ![slack3](../images/slack3.PNG)
 
-> **Spitze**
+> ****
 >
-> Setzen Sie die Maus wie an vielen Stellen auf Jeedom ganz links
-> ruft ein Schnellzugriffsmenü auf (Sie können
-> von deinem Profil immer sichtbar lassen).
+> 
+> 
+> .
 
-Sobald Sie auf eine davon klicken, erhalten Sie :
+ :
 
 ![slack4](../images/slack4.PNG)
 
-Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
+ :
 
--   **Name der Ausrüstung** : 
+-   **Nomee de equipamentos** : 
 
--   **Aktivieren** : macht Ihre Ausrüstung aktiv
+-   **Ativar** : 
 
--   **Sichtbar** : macht es auf dem Dashboard sichtbar
+-   **Visivél** : 
 
--   **Domain** : 
+-   **Domínio** : 
     
 
 -   **** : 
     
     
 
--   **URL zurückgeben** : 
+-   **URL de retorno** : 
     
     
 
  :
 
--   **Name** : Name der Bestellung
+-   **Nome** : 
 
 -   **** : 
 
 -   **** : 
     
 
--   Erweiterte Konfiguration (kleine gekerbte Räder) : Anzeigen
-    die erweiterte Konfiguration des Befehls (Methode
-    Geschichte, Widget…)
+-    : 
+    
+    
 
--   Test : Wird zum Testen des Befehls verwendet
+-   Teste : 
 
--   Löschen (unterschreiben -) : ermöglicht das Löschen des Befehls
+-    : 
 
-> **Spitze**
+> ****
 >
 >  : 
 > ,
@@ -125,7 +125,7 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
  :
 
--   **Kanal** : 
+-   **** : 
     . 
     
     
@@ -133,7 +133,7 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 -   **** : 
     . 
     
-     : Jeedom
+     : 
     
 
 -   **** : 
@@ -142,7 +142,7 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
 
 
-Jeedom.
+.
 
 
 
@@ -150,13 +150,13 @@ Jeedom.
 
 
 
-> **Wichtig**
+> ****
 >
 > 
 > 
 > .
 
-> **Spitze**
+> ****
 >
 > 
 > 
@@ -194,7 +194,7 @@ Jeedom.
 
 .
 
-> **Spitze**
+> ****
 >
 > 
 > .
@@ -216,9 +216,9 @@ Jeedom.
 ,
 . 
 
-Jeedom
 
-> **Spitze**
+
+> ****
 >
 > 
 > .
@@ -231,7 +231,7 @@ Jeedom
 
 ![slack16](../images/slack16.PNG)
 
-> **Wichtig**
+> ****
 >
 > 
 > 

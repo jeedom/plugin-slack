@@ -1,44 +1,44 @@
 {
-    "desktop\/js\/slack.js": {
-        "Nom": "Name",
-        "Webhook": "webhook",
-        "Destination": "Destination",
-        "Tester": "Test"
-    },
-    "desktop\/php\/slack.php": {
+    "plugins\/slack\/desktop\/php\/slack.php": {
         "401 - Accès non autorisé": "401 - Unauthorized access",
         "Gestion": "Management",
         "Ajouter": "Add",
-        "Mes Slack": "My Slack",
+        "Mes Slack": "",
         "Rechercher": "Search",
         "Configuration avancée": "Advanced configuration",
         "Dupliquer": "Duplicate",
         "Sauvegarder": "Save",
         "Supprimer": "Delete",
         "Equipement": "Equipment",
-        "Commandes": "Orders",
+        "Commandes": "Commands",
         "Nom de l'équipement virtuel": "Name of the virtual device",
         "Objet parent": "Parent object",
-        "Aucun": "No",
+        "Aucun": "None",
         "Catégorie": "Category",
-        "Activer": "Enable",
+        "Activer": "Activate",
         "Visible": "Visible",
         "Domaine": "Domain",
-        "Nom du domaine": "Domain name",
-        "Authentification token": "Token authentification",
-        "Token": "token",
-        "URL de retour": "Return URL",
+        "Nom du domaine": "",
+        "Authentification token": "",
+        "Token": "Token",
+        "URL de retour": "Return url",
         "Ajouter une commande": "Add a command",
         "Nom": "Name",
-        "Webhook": "webhook",
-        "Destination": "Destination"
+        "Webhook": "Webhook",
+        "Destination": ""
     },
-    "core\/php\/jeeSlack.php": {
-        "Clef API non valide": "Invalid API key",
-        "Domaine inconnue : ": "Unknown domain:"
+    "plugins\/slack\/desktop\/js\/slack.js": {
+        "Nom": "Name",
+        "Webhook": "Webhook",
+        "Destination": "",
+        "Tester": "Test"
     },
-    "core\/class\/slack.class.php": {
+    "plugins\/slack\/core\/php\/jeeSlack.php": {
+        "Clef API non valide, vous n\\'êtes pas autorisé à effectuer cette action (slack)": "",
+        "Domaine inconnue : ": ""
+    },
+    "plugins\/slack\/core\/class\/slack.class.php": {
         "Message": "Message",
-        "Expediteur": "Sender"
+        "Expediteur": ""
     }
 }

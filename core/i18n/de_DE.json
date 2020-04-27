@@ -1,46 +1,44 @@
 {
-    "desktop\/js\/slack.js": {
-        "Nom": "Name",
-        "Webhook": "Webhook",
-        "Destination": "Ziel",
-        "Tester": "Test"
-    },
-    "desktop\/php\/slack.php": {
+    "plugins\/slack\/desktop\/php\/slack.php": {
         "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
-        "Gestion": "Management",
-        "Ajouter": "hinzufügen",
-        "Mes Slack": "Mein Slack",
+        "Gestion": "Verwaltung",
+        "Ajouter": "Hinzufügen",
+        "Mes Slack": "",
         "Rechercher": "Suchen nach",
         "Configuration avancée": "Erweiterte Konfiguration",
         "Dupliquer": "Duplikat",
         "Sauvegarder": "Speichern",
         "Supprimer": "Löschen",
-        "Equipement": "Ausrüstung",
+        "Equipement": "Gerät",
         "Commandes": "Befehle",
         "Nom de l'équipement virtuel": "Name des virtuellen Geräts",
         "Objet parent": "Übergeordnetes Objekt",
-        "Aucun": "keine",
+        "Aucun": "Ohne",
         "Catégorie": "Kategorie",
-        "Activer": "aktivieren",
+        "Activer": "Aktivieren",
         "Visible": "Sichtbar",
         "Domaine": "Domain",
-        "Nom du domaine": "Domaine Name",
-        "Authentification token": "Tocken Authentifizierung",
+        "Nom du domaine": "",
+        "Authentification token": "",
         "Token": "Zeichen",
-        "URL de retour": "URL zurück",
-        "Ajouter une commande": "Befehl hinzufügen",
+        "URL de retour": "URL zurückgeben",
+        "Ajouter une commande": "Kommando hinzufügen",
         "Nom": "Name",
-        "Webhook": "Webhook",
-        "Destination": "Ziel"
+        "Webhook": "",
+        "Destination": ""
     },
-    "core\/php\/jeeSlack.php": {
-        "Clef API non valide": "Ungültiger API-Schlüssel",
-        "Domaine inconnue : ": "Unbekannte Domain:"
-    },
-    "core\/class\/slack.class.php": {
+    "plugins\/slack\/desktop\/js\/slack.js": {
         "Nom": "Name",
-        "Webhook": "Webhook",
-        "Destination": "Ziel",
+        "Webhook": "",
+        "Destination": "",
         "Tester": "Test"
+    },
+    "plugins\/slack\/core\/php\/jeeSlack.php": {
+        "Clef API non valide, vous n\\'êtes pas autorisé à effectuer cette action (slack)": "",
+        "Domaine inconnue : ": ""
+    },
+    "plugins\/slack\/core\/class\/slack.class.php": {
+        "Message": "Nachricht",
+        "Expediteur": ""
     }
 }

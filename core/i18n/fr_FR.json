@@ -1,11 +1,5 @@
 {
-    "desktop\/js\/slack.js": {
-        "Nom": "Nom",
-        "Webhook": "Webhook",
-        "Destination": "Destination",
-        "Tester": "Tester"
-    },
-    "desktop\/php\/slack.php": {
+    "plugins\/slack\/desktop\/php\/slack.php": {
         "401 - Accès non autorisé": "401 - Accès non autorisé",
         "Gestion": "Gestion",
         "Ajouter": "Ajouter",
@@ -33,11 +27,17 @@
         "Webhook": "Webhook",
         "Destination": "Destination"
     },
-    "core\/php\/jeeSlack.php": {
-        "Clef API non valide": "Clef API non valide",
+    "plugins\/slack\/desktop\/js\/slack.js": {
+        "Nom": "Nom",
+        "Webhook": "Webhook",
+        "Destination": "Destination",
+        "Tester": "Tester"
+    },
+    "plugins\/slack\/core\/php\/jeeSlack.php": {
+        "Clef API non valide, vous n\\'êtes pas autorisé à effectuer cette action (slack)": "Clef API non valide, vous n\\'êtes pas autorisé à effectuer cette action (slack)",
         "Domaine inconnue : ": "Domaine inconnue : "
     },
-    "core\/class\/slack.class.php": {
+    "plugins\/slack\/core\/class\/slack.class.php": {
         "Message": "Message",
         "Expediteur": "Expediteur"
     }

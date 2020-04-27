@@ -1,46 +1,44 @@
 {
-    "desktop\/js\/slack.js": {
-        "Nom": "名前",
-        "Webhook": "ウェブフック",
-        "Destination": "先",
-        "Tester": "テスト"
-    },
-    "desktop\/php\/slack.php": {
-        "401 - Accès non autorisé": "401 - Accès non autorisé",
-        "Gestion": "Gestion",
-        "Ajouter": "Ajouter",
-        "Mes Slack": "私のスラック",
+    "plugins\/slack\/desktop\/php\/slack.php": {
+        "401 - Accès non autorisé": "401-不正アクセス",
+        "Gestion": "管理",
+        "Ajouter": "加えます",
+        "Mes Slack": "",
         "Rechercher": "検索",
-        "Configuration avancée": "Configuration avancée",
-        "Dupliquer": "Dupliquer",
+        "Configuration avancée": "高度な構成",
+        "Dupliquer": "重複",
         "Sauvegarder": "セーブ",
         "Supprimer": "取り除きます",
-        "Equipement": "Equipement",
-        "Commandes": "Commandes",
-        "Nom de l'équipement virtuel": "Nom de l'équipement virtuel",
-        "Objet parent": "Objet parent",
-        "Aucun": "Aucun",
-        "Catégorie": "Catégorie",
+        "Equipement": "設備",
+        "Commandes": "コマンド",
+        "Nom de l'équipement virtuel": "",
+        "Objet parent": "親オブジェクト",
+        "Aucun": "何でもありません",
+        "Catégorie": "カテゴリ",
         "Activer": "アクティブ",
         "Visible": "目に見えます",
         "Domaine": "ドメイン",
-        "Nom du domaine": "ドメイン名",
-        "Authentification token": "トークン認証",
-        "Token": "トークン",
+        "Nom du domaine": "",
+        "Authentification token": "",
+        "Token": "",
         "URL de retour": "リターンURL",
         "Ajouter une commande": "コマンドの追加",
-        "Nom": "名前",
-        "Webhook": "ウェブフック",
-        "Destination": "先"
+        "Nom": "表題",
+        "Webhook": "",
+        "Destination": ""
     },
-    "core\/php\/jeeSlack.php": {
-        "Clef API non valide": "Clef API non valide",
-        "Domaine inconnue : ": "Domaine inconnue : "
-    },
-    "core\/class\/slack.class.php": {
-        "Nom": "名前",
-        "Webhook": "ウェブフック",
-        "Destination": "先",
+    "plugins\/slack\/desktop\/js\/slack.js": {
+        "Nom": "表題",
+        "Webhook": "",
+        "Destination": "",
         "Tester": "テスト"
+    },
+    "plugins\/slack\/core\/php\/jeeSlack.php": {
+        "Clef API non valide, vous n\\'êtes pas autorisé à effectuer cette action (slack)": "",
+        "Domaine inconnue : ": ""
+    },
+    "plugins\/slack\/core\/class\/slack.class.php": {
+        "Message": "メッセージ",
+        "Expediteur": ""
     }
 }
