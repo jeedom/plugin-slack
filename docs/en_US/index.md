@@ -1,24 +1,24 @@
-
-
-.
+This plugin establishes a connection between Slack and Jeedom for
+send alerts from Jeedom or chat with Jeedom (in
+using interactions).
 
 Plugin configuration 
 =======================
 
-
-.
+After downloading the plugin, you must activate it, it does not
+no other configuration required.
 
 ![slack1](../images/slack1.PNG)
 
 Equipment configuration 
 =============================
 
-
+The configuration of Slack equipment is accessible from the menu
 Plugins :
 
 ![slack2](../images/slack2.PNG)
 
-
+This is what the Slack plugin page looks like (here with already 1
 equipment) :
 
 ![slack3](../images/slack3.PNG)
@@ -35,31 +35,31 @@ Once you click on one of them, you get :
 
 Here you find all the configuration of your equipment :
 
--   **Name of equipment** : 
+-   **Name of equipment** : name of your Slack equipment
 
--   **Activate** : makes your equipment active
+-   **Activer** : makes your equipment active
 
 -   **Visible** : makes it visible on the dashboard
 
--   **Domain** : 
-    
+-   **Domaine** : domain name of your Slack (allows in particular if
+    you have several Slack to differentiate them)
 
--   **** : 
-    
-    
+-   **Token authentication** : Slack API token, useful only
+    for sending files (capture from a camera for example), see
+    below the method to recover it
 
--   **Return url** : 
-    
-    
+-   **Return url** : this is the URL that must be given in the webhook of
+    Slack (please note that your Jeedom must be accessible
+    from the outside)
 
- :
+Below you will find the configuration of the commands :
 
--   **Name** : Name of the order
+-   **Nom** : Name of the order
 
--   **Webhook** : 
+-   **Webhook** : URL to call to send a message on Slack
 
--   **** : 
-    
+-   **Destination** : not mandatory, allows to force the sending of a
+    message to a channel or user
 
 -   Advanced configuration (small notched wheels) : Displays
     the advanced configuration of the command (method
@@ -71,168 +71,168 @@ Here you find all the configuration of your equipment :
 
 > **Tip**
 >
->  : 
-> ,
-> 
-> 
-> 
-> 
-> 
+> By default there are 2 commands : Sender who gives you the name of the
+> last sender of the message and Message that gives you the message,
+> it can be useful if you want to do something that is not
+> possible with interactions to trigger a scenario on arrival
+> of a new message for example and to recover the value of it
+> (we can for example imagine having the message read on Sonos or
+> a Karotz)
 
- 
+Slack account creation 
 ==========================
 
-:HTTPS:.
- :
+Nothing more just go [here](:https://slack.com/), and of
+enter an email address and a domain / company name, for example :
 
 ![slack5](../images/slack5.PNG)
 
+You just have to validate, you will receive an email, you must
+click on the link to activate your account and it's good
 
-
-
- :
+Then you will arrive on your Slack :
 
 ![slack6](../images/slack6.PNG)
 
+From there you find on the left the channels and
+users, in the center you can download the Slack app for
+iOS, Android, Mac or Windows
 
-
-
-
- 
+Adding outgoing webhook 
 ========================
 
-
-,
- :
+Wekhooks allow Slack to inform Jeedom of the arrival of a
+message and wait for Jeedom's response to forward it to you,
+to do this you have to go to the settings :
 
 ![slack7](../images/slack7.PNG)
 
- :
+Then click on integration :
 
 ![slack8](../images/slack8.PNG)
 
-" :
+At the bottom you will find "Outgoing WebHooks" :
 
 ![slack9](../images/slack9.PNG)
 
-" :
+Click on "Add" :
 
 ![slack10](../images/slack10.PNG)
 
-" :
+Then "Add Outgoing WebHooks Integration" :
 
 ![slack11](../images/slack11.PNG)
 
- :
+You will find the different parameters towards the bottom of the page :
 
--   **Channel** : 
-    . 
-    
-    
+-   **Channel** : not required, lets tell Slack to send everything
+    what's in this Channel at Jeedom. We can for example create
+    a channel just for Jeedom (more practical than putting a
+    trigger word)
 
--   **** : 
-    . 
-    
-     : Jeedom
-    
+-   **Word Trigger (s)** : not compulsory if you have a channel
+    otherwise you absolutely need one. This field allows you to define a word
+    trigger for sending to Jeedom, for example if you put Jeedom
+    all your requests must start with Jeedom (ex : Jeedom
+    how much is he in the room)
 
--   **** : 
-    "
+-   **URL (s)** : URL to call, you find it on your page
+    Jeedom equipment under the name of "return URL"
 
-
-
-
+The other fields are not useful, except maybe the "Customize
+Name "which allows to define the name of the Jeedom bot (name with which responds
+Jeedom), you can also with "Customize Icon" change the icon of
 Jeedom.
 
-
+Then click on "Save Settings" and it's good
 
 ![slack12](../images/slack12.PNG)
 
-
+There, you can talk to Jeedom through Slack
 
 > **Important**
 >
-> 
-> 
-> .
+> Do not forget in Jeedom to enter your domain name (name of
+> company), otherwise Jeedom will refuse to answer you (note this field
+> is sensitive to the box).
 
 > **Tip**
 >
-> 
-> 
-> .
+> Since Jeedom separates equipment by domain, it is
+> possible if you have multiple areas to separate equipment and
+> so the scenarios behind.
 
- 
+Addition of incoming webhook 
 =========================
 
-
-. 
-.
- :
+Incoming webhooks allow Jeedom to communicate a message on
+a channel or directly to a person. Without these webhooks
+Jeedom will not be able to take the initiative to send you a message.
+To do this, go to the settings :
 
 ![slack7](../images/slack7.PNG)
 
- :
+Then click on integration :
 
 ![slack8](../images/slack8.PNG)
 
-" :
+At the very bottom you will find "Incoming WebHooks" :
 
 ![slack13](../images/slack13.PNG)
 
-
-
- :
+Then you need to choose a channel or a user from
+default destination (you can then specify one per command in
+Jeedom) :
 
 ![slack14](../images/slack14.PNG)
 
-".
+Then click on "Add Incoming WebHooks Integration".
 
 ![slack15](../images/slack15.PNG)
 
-
-
-.
+At the bottom of the page you find the information of the webhook, there you
+just retrieve the value from the "Webhook URL" field and copy it to
+the Webhook field of your order.
 
 > **Tip**
 >
-> 
-> .
+> In the destination field of the order in Jeedom you can
+> specify a channel (ex \#monchannel) or a user (ex @toto).
 
+Here, under Jeedom you just have to save and there you can
+from Jeedom send messages on Slack
 
-
-
- 
+Token recovery 
 =====================
 
-
-
-
-[ici](HTTPS://api.slack.com/custom-integrations/legacy-tokens), puis tout en bas aller sur :
+Here's how to retrieve your token so Jeedom can send
+files on Slack, and in particular camera captures by
+example. First you have to go
+[here](https://api.slack.com/custom-integrations/legacy-tokens), then at the very bottom go on :
 
 ![slack17](../images/slack17.PNG)
 
-
-,
-. 
-
+Here in front of your team, ask Slack to generate the token, it will
+ask you for your password and then send you back to the same page,
+at the bottom ask for the token again. After a few seconds
+it will appear, just copy it in the token field on
 Jeedom
 
 > **Tip**
 >
-> 
-> .
+> This step is optional, it is just useful for sending
+> Slack captures your camera for example.
 
- ? 
+What is the result ? 
 ========================
 
-
- :
+Here is an example of what it is possible to do once the plugin
+properly configured and interactions created :
 
 ![slack16](../images/slack16.PNG)
 
 > **Important**
 >
-> 
-> 
-> "
+> If you use the "ask" scenario function, you must send
+> the request on a channel on which Jeedom listens to the responses otherwise
+> your "ask" request will fall into "timeout""
