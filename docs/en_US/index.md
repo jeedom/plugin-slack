@@ -168,7 +168,7 @@ Addition of incoming webhook
 Incoming webhooks allow Jeedom to communicate a message on
 a channel or directly to a person. Without these webhooks
 Jeedom will not be able to take the initiative to send you a message.
-To do this, go to the settings :
+To do this you have to go to the settings :
 
 ![slack7](../images/slack7.PNG)
 

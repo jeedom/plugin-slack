@@ -168,7 +168,7 @@ Hinzufügen eines eingehenden Webhooks
 Eingehende Webhooks ermöglichen es Jeedom, eine Nachricht weiterzuleiten
 ein Kanal oder direkt zu einer Person. Ohne diese Webhooks
 Jeedom kann nicht die Initiative ergreifen, um Ihnen eine Nachricht zu senden.
-Gehen Sie dazu zu den Einstellungen :
+Dazu müssen Sie zu den Einstellungen gehen :
 
 ![slack7](../images/slack7.PNG)
 

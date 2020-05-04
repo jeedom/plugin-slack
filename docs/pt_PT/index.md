@@ -168,7 +168,7 @@ Adição de webhook recebido
 Os webhooks recebidos permitem que o Jeedom comunique uma mensagem no
 um canal ou diretamente para uma pessoa. Sem esses webhooks
 Jeedom não poderá tomar a iniciativa de enviar uma mensagem.
-Para fazer isso, vá para as configurações :
+Para fazer isso, você tem que ir para as configurações :
 
 ![slack7](../images/slack7.PNG)
 

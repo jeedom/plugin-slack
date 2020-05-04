@@ -54,7 +54,7 @@ Aquí encontrarás toda la configuración de tu equipo :
 
 A continuación encontrará la configuración de los comandos. :
 
--   **Nom** : Nombrebre de la orden
+-   **Nom** : Nombre de la orden
 
 -   **Webhook** : URL para llamar para enviar un mensaje en Slack
 
@@ -168,7 +168,7 @@ Adición de webhook entrante
 Los webhooks entrantes permiten a Jeedom comunicar un mensaje en
 un canal o directamente a una persona. Sin estos webhooks
 Jeedom no podrá tomar la iniciativa de enviarte un mensaje.
-Para hacer esto, vaya a la configuración :
+Para hacer esto tienes que ir a la configuración :
 
 ![slack7](../images/slack7.PNG)
 
@@ -191,7 +191,7 @@ Luego haga clic en "Agregar integración de WebHooks entrantes".
 ![slack15](../images/slack15.PNG)
 
 En la parte inferior de la página encontrará la información del webhook, allí puede
-solo recupere el valor del campo "URL de Web hook" y cópielo en
+solo recupere el valor del campo "URL de Webhook" y cópielo en
 el campo Web hook de tu pedido.
 
 > **Tip**
