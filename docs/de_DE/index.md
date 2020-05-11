@@ -23,7 +23,7 @@ Ausrüstung) :
 
 ![slack3](../images/slack3.PNG)
 
-> **Tip**
+> **Spitze**
 >
 > Setzen Sie die Maus wie an vielen Stellen auf Jeedom ganz links
 > ruft ein Schnellzugriffsmenü auf (Sie können
@@ -35,13 +35,13 @@ Sobald Sie auf eine davon klicken, erhalten Sie :
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Name der Ausrüstung** : Name Ihrer Slack-Ausrüstung
+-   **Name de l'équipement** : Name Ihrer Slack-Ausrüstung
 
--   **Activer** : macht Ihre Ausrüstung aktiv
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv
 
--   **Visible** : macht es auf dem Dashboard sichtbar
+-   **Sichtbar** : macht es auf dem Dashboard sichtbar
 
--   **Domaine** : Domain Name Ihres Slack (erlaubt insbesondere wenn
+-   **Domain** : Domain Name Ihres Slack (erlaubt insbesondere wenn
     Sie haben mehrere Slack, um sie zu unterscheiden)
 
 -   **Token-Authentifizierung** : Slack API Token, nur nützlich
@@ -54,11 +54,11 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
 Nachfolgend finden Sie die Konfiguration der Befehle :
 
--   **Nom** : Name der Bestellung
+-   **Name** : Name der Bestellung
 
 -   **Webhook** : URL zum Anrufen, um eine Nachricht auf Slack zu senden
 
--   **Destination** : nicht obligatorisch, ermöglicht das Erzwingen des Sendens von a
+-   **Ziel** : nicht obligatorisch, ermöglicht das Erzwingen des Sendens von a
     Nachricht an einen Kanal oder Benutzer
 
 -   Erweiterte Konfiguration (kleine gekerbte Räder) : Anzeigen
@@ -69,7 +69,7 @@ Nachfolgend finden Sie die Konfiguration der Befehle :
 
 -   Löschen (unterschreiben -) : ermöglicht das Löschen des Befehls
 
-> **Tip**
+> **Spitze**
 >
 > Standardmäßig gibt es 2 Befehle : Absender, der Ihnen den Namen des gibt
 > letzter Absender der Nachricht und Nachricht, die Ihnen die Nachricht gibt,
@@ -125,7 +125,7 @@ Dann "Outgoing WebHooks Integration hinzufügen" :
 
 Die verschiedenen Parameter finden Sie unten auf der Seite :
 
--   **Channel** : nicht erforderlich, lassen Sie uns Slack anweisen, alles zu senden
+-   **Kanal** : nicht erforderlich, lassen Sie uns Slack anweisen, alles zu senden
     Was ist in diesem Kanal bei Jeedom. Wir können zum Beispiel erstellen
     ein Kanal nur für Jeedom (praktischer als ein
     Auslösewort)
@@ -150,13 +150,13 @@ Klicken Sie dann auf "Einstellungen speichern" und es ist gut
 
 Dort kannst du über Slack mit Jeedom sprechen
 
-> **Important**
+> **Wichtig**
 >
 > Vergessen Sie nicht, in Jeedom Ihren Domainnamen (Name von) einzugeben
 > Firma), sonst wird Jeedom sich weigern, Ihnen zu antworten (beachten Sie dieses Feld
 > ist empfindlich gegenüber der Box).
 
-> **Tip**
+> **Spitze**
 >
 > Da Jeedom die Ausrüstung nach Domänen trennt, ist dies der Fall
 > möglich, wenn Sie mehrere Bereiche haben, um Geräte zu trennen und
@@ -194,10 +194,10 @@ Am Ende der Seite finden Sie die Informationen des Webhooks
 Rufen Sie einfach den Wert aus dem Feld "Webhook-URL" ab und kopieren Sie ihn in
 das Webhook-Feld Ihrer Bestellung.
 
-> **Tip**
+> **Spitze**
 >
 > Im Zielfeld der Bestellung in Jeedom können Sie
-> Geben Sie einen Kanal (ex \#monchannel) oder einen Benutzer (ex @toto) an..
+> Geben Sie einen Kanal (ex \#monchannel) oder einen Benutzer (ex @toto) an.
 
 Hier unter Jeedom muss man nur sparen und dort kann man
 von Jeedom senden Nachrichten auf Slack
@@ -218,7 +218,7 @@ Fragen Sie unten erneut nach dem Token. Nach ein paar Sekunden
 es wird angezeigt, kopieren Sie es einfach in das Token-Feld auf
 Jeedom
 
-> **Tip**
+> **Spitze**
 >
 > Dieser Schritt ist optional und nur zum Senden nützlich
 > Slack erfasst zum Beispiel Ihre Kamera.
@@ -231,7 +231,7 @@ richtig konfiguriert und Interaktionen erstellt :
 
 ![slack16](../images/slack16.PNG)
 
-> **Important**
+> **Wichtig**
 >
 > Wenn Sie die Szenariofunktion "Fragen" verwenden, müssen Sie senden
 > die Anfrage auf einem Kanal, auf dem Jeedom sonst auf die Antworten hört

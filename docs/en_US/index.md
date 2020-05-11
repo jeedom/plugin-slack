@@ -35,13 +35,13 @@ Once you click on one of them, you get :
 
 Here you find all the configuration of your equipment :
 
--   **Name of equipment** : name of your Slack equipment
+-   **Name de l'équipement** : name of your Slack equipment
 
--   **Activer** : makes your equipment active
+-   **Activate** : makes your equipment active
 
 -   **Visible** : makes it visible on the dashboard
 
--   **Domaine** : domain name of your Slack (allows in particular if
+-   **Domain** : domain name of your Slack (allows in particular if
     you have several Slack to differentiate them)
 
 -   **Token authentication** : Slack API token, useful only
@@ -54,7 +54,7 @@ Here you find all the configuration of your equipment :
 
 Below you will find the configuration of the commands :
 
--   **Nom** : Name of the order
+-   **Name** : Name of the order
 
 -   **Webhook** : URL to call to send a message on Slack
 

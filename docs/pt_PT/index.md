@@ -23,7 +23,7 @@ equipamento) :
 
 ![slack3](../images/slack3.PNG)
 
-> **Tip**
+> **Dica**
 >
 > Como em muitos lugares em Jeedom, coloque o mouse na extremidade esquerda
 > abre um menu de acesso rápido (você pode
@@ -35,13 +35,13 @@ Depois de clicar em um deles, você obtém :
 
 Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nome de equipamentos** : nome do seu equipamento Slack
+-   **Nome de l'équipement** : nome do seu equipamento Slack
 
--   **Activer** : torna seu equipamento ativo
+-   **Ativar** : torna seu equipamento ativo
 
--   **Visible** : torna visível no painel
+-   **Visivél** : torna visível no painel
 
--   **Domaine** : nome de domínio do seu Slack (permite, em particular, se
+-   **Domínio** : nome de domínio do seu Slack (permite, em particular, se
     você tem vários Slack para diferenciá-los)
 
 -   **Autenticação de token** : Token da API do Slack, útil apenas
@@ -54,11 +54,11 @@ Aqui você encontra toda a configuração do seu equipamento :
 
 Abaixo você encontrará a configuração dos comandos :
 
--   **Nom** : nome do comando
+-   **Nome** : nome do comando
 
 -   **Webhook** : URL para ligar para enviar uma mensagem no Slack
 
--   **Destination** : não obrigatório, permite forçar o envio de um
+-   **Destino** : não obrigatório, permite forçar o envio de um
     mensagem para um canal ou usuário
 
 -   Configuração avançada (pequenas rodas dentadas) : permite exibir
@@ -69,7 +69,7 @@ Abaixo você encontrará a configuração dos comandos :
 
 -   Excluir (assinar -) : permite excluir o comando
 
-> **Tip**
+> **Dica**
 >
 > Por padrão, existem 2 comandos : Remetente que fornece o nome do
 > último remetente da mensagem e a mensagem que fornece a mensagem,
@@ -125,7 +125,7 @@ Em seguida, "Adicionar integração de WebHooks de saída" :
 
 Você encontrará os diferentes parâmetros na parte inferior da página :
 
--   **Channel** : não é necessário, vamos dizer ao Slack para enviar tudo
+-   **Canal** : não é necessário, vamos dizer ao Slack para enviar tudo
     o que há neste canal na Jeedom. Por exemplo, podemos criar
     um canal apenas para Jeedom (mais prático do que colocar um
     palavra de gatilho)
@@ -150,13 +150,13 @@ Em seguida, clique em "Salvar configurações" e é bom
 
 Lá, você pode conversar com Jeedom através do Slack
 
-> **Important**
+> **IMPORTANTE**
 >
 > Não esqueça no Jeedom de inserir seu nome de domínio (nome de
 > empresa), caso contrário, a Jeedom se recusará a responder (observe este campo
 > é sensível à caixa).
 
-> **Tip**
+> **Dica**
 >
 > Como a Jeedom separa o equipamento por domínio, é
 > possível se você tiver várias áreas para separar equipamentos e
@@ -194,7 +194,7 @@ Na parte inferior da página, você encontra as informações do webhook, lá vo
 recupere o valor do campo "Webhook URL" e copie-o para
 o campo Webhook do seu pedido.
 
-> **Tip**
+> **Dica**
 >
 > No campo de destino do pedido em Jeedom, você pode
 > especifique um canal (ex \#monchannel) ou um usuário (ex @toto).
@@ -218,7 +218,7 @@ na parte inferior, peça o token novamente. Depois de alguns segundos
 aparecer, basta copiá-lo no campo token em
 Jeedom
 
-> **Tip**
+> **Dica**
 >
 > Esta etapa é opcional, é útil apenas para enviar
 > O Slack captura sua câmera, por exemplo.
@@ -231,7 +231,7 @@ adequadamente configurado e interações criadas :
 
 ![slack16](../images/slack16.PNG)
 
-> **Important**
+> **IMPORTANTE**
 >
 > Se você usar a função de cenário "ask", deverá enviar
 > a solicitação em um canal no qual Jeedom ouve as respostas, caso contrário

@@ -23,7 +23,7 @@ equipos) :
 
 ![slack3](../images/slack3.PNG)
 
-> **Tip**
+> **Punta**
 >
 > Como en muchos lugares de Jeedom, coloca el mouse en el extremo izquierdo
 > abre un menú de acceso rápido (puedes
@@ -35,13 +35,13 @@ Una vez que haces clic en uno de ellos, obtienes :
 
 Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nombre del equipo** : nombre de su equipo Slack
+-   **Nombre de l'équipement** : nombre de su equipo Slack
 
--   **Activer** : activa su equipo
+-   **Activar** : activa su equipo
 
 -   **Visible** : lo hace visible en el tablero
 
--   **Domaine** : nombre de dominio de su Slack (permite en particular si
+-   **Dominio** : nombre de dominio de su Slack (permite en particular si
     tienes varias holguras para diferenciarlas)
 
 -   **Autenticación de token** : Token API flojo, útil solo
@@ -52,13 +52,13 @@ Aquí encontrarás toda la configuración de tu equipo :
     Slack (tenga en cuenta que su Jeedom debe ser accesible
     del exterior)
 
-A continuación encontrará la configuración de los comandos. :
+A continuación encontrará la configuración de los comandos :
 
--   **Nom** : Nombre de la orden
+-   **Nombre** : Nombre de la orden
 
--   **Webhook** : URL para llamar para enviar un mensaje en Slack
+-   **Web hook** : URL para llamar para enviar un mensaje en Slack
 
--   **Destination** : no obligatorio, permite forzar el envío de un
+-   **Destino** : no obligatorio, permite forzar el envío de un
     mensaje a un canal o usuario
 
 -   Configuración avanzada (ruedas con muescas pequeñas) : Muestra
@@ -69,7 +69,7 @@ A continuación encontrará la configuración de los comandos. :
 
 -   Eliminar (firmar -) : permite eliminar el comando
 
-> **Tip**
+> **Punta**
 >
 > Por defecto hay 2 comandos : Remitente que te da el nombre del
 > último remitente del mensaje y Mensaje que le da el mensaje,
@@ -123,15 +123,15 @@ Luego "Agregar integración de WebHooks salientes" :
 
 ![slack11](../images/slack11.PNG)
 
-Encontrará los diferentes parámetros en la parte inferior de la página. :
+Encontrará los diferentes parámetros en la parte inferior de la página :
 
--   **Channel** : no es obligatorio, digamos a Slack que envíe todo
+-   **Canal** : no es obligatorio, digamos a Slack que envíe todo
     que hay en este canal en Jeedom. Podemos por ejemplo crear
     un canal solo para Jeedom (más práctico que poner un
     palabra de activación)
 
 -   **Word Trigger (s)** : no es obligatorio si tienes un canal
-    de lo contrario, absolutamente necesitas uno. Este campo le permite definir una palabra.
+    de lo contrario, absolutamente necesitas uno. Este campo le permite definir una palabra
     disparador para enviar a Jeedom, por ejemplo si coloca Jeedom
     todas sus solicitudes deben comenzar con Jeedom (ex : Jeedom
     cuánto está él en la habitación)
@@ -150,13 +150,13 @@ Luego haga clic en "Guardar configuración" y está bien
 
 Allí, puedes hablar con Jeedom a través de Slack
 
-> **Important**
+> **Importante**
 >
 > No olvide en Jeedom ingresar su nombre de dominio (nombre de
 > empresa), de lo contrario Jeedom se negará a responderle (tenga en cuenta este campo
 > es sensible a la caja).
 
-> **Tip**
+> **Punta**
 >
 > Como Jeedom separa el equipo por dominio, es
 > posible si tiene múltiples áreas para separar equipos y
@@ -192,9 +192,9 @@ Luego haga clic en "Agregar integración de WebHooks entrantes".
 
 En la parte inferior de la página encontrará la información del webhook, allí puede
 solo recupere el valor del campo "URL de Webhook" y cópielo en
-el campo Web hook de tu pedido.
+el campo Webhook de tu pedido.
 
-> **Tip**
+> **Punta**
 >
 > En el campo de destino del pedido en Jeedom puedes
 > especificar un canal (ex \#monchannel) o un usuario (ex @toto).
@@ -218,7 +218,7 @@ en la parte inferior pide nuevamente el token. Después de unos segundos
 aparecerá, solo cópielo en el campo de token en
 Jeedom
 
-> **Tip**
+> **Punta**
 >
 > Este paso es opcional, solo es útil para enviar
 > Slack captura tu cámara por ejemplo.
@@ -231,7 +231,7 @@ configurado correctamente e interacciones creadas :
 
 ![slack16](../images/slack16.PNG)
 
-> **Important**
+> **Importante**
 >
 > Si utiliza la función de escenario "preguntar", debe enviar
 > la solicitud en un canal en el que Jeedom escucha las respuestas de lo contrario
