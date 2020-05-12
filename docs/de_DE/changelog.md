@@ -1,3 +1,5 @@
+# Changelog Slack
+
 # 12/03/2019
 
 - Korrektur eines Fehlers bei der Generierung der Slack Contact URL für Jeedom

@@ -1,3 +1,5 @@
+# Changelog Slack
+
 # 12/03/2019
 
 - Corrección de un error en la generación de la url de contacto flojo para jeedom

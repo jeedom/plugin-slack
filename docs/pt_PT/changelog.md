@@ -1,3 +1,5 @@
+# Changelog Slack
+
 # 03/03/2019
 
 - Correção de um bug na geração do URL de contato frouxo para jeedom
