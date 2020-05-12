@@ -1,5 +1,9 @@
 # Changelog Slack
 
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+
 # 12/03/2019
 
 - Correction of a bug on the generation of the slack contact url for jeedom

@@ -1,5 +1,9 @@
 # Changelog Slack
 
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+
 # 12/03/2019
 
 - Corrección de un error en la generación de la url de contacto flojo para jeedom
