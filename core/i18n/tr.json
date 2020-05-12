@@ -1,44 +1,44 @@
 {
-    "plugins/slack/plugin_info/info.xml": {
-        "Plugin pour creer un bot sur slack": "Slack üzerinde bir bot oluşturmak için Eklenti",
-        "Aucune": "Hiçbir",
-        "Plugin pour creer lier Jeedom à Slack": "Jeedom'u Slack'e bağlamak için eklenti",
-        "Plugin pour lier Jeedom à Slack": "Jeedom'u Slack'e bağlamak için eklenti"
-    },
-    "plugins/slack/core/class/slack.class.php": {
-        "Message": "Mesaj",
-        "Expediteur": "Gönderen"
-    },
-    "plugins/slack/desktop/php/slack.php": {
-        "Ajouter un template": "şablon ekle",
+    "plugins\/slack\/desktop\/php\/slack.php": {
+        "401 - Accès non autorisé": "401 - Yetkisiz erişim",
+        "Gestion": "Idare",
+        "Ajouter": "Ekle",
+        "Mes Slack": "",
         "Rechercher": "Arayın",
-        "Mes templates": "şablonlarım",
-        "Général": "Genel",
-        "Nom de l'équipement Slack": "Slack ekipman ismi",
-        "Nom de l'équipement slack": "Slack ekipman adı",
-        "Activer": "Etkinleştirmek",
+        "Configuration avancée": "Gelişmiş ayarlar",
+        "Dupliquer": "Kopyala",
+        "Sauvegarder": "Kaydet",
+        "Supprimer": "Sil",
+        "Equipement": "Cihaz",
+        "Commandes": "Komutalar",
+        "Nom de l'équipement virtuel": "",
+        "Objet parent": "Üst nesne",
+        "Aucun": "Hiçbir",
+        "Catégorie": "Kategori",
+        "Activer": "Etkinleştir",
         "Visible": "Görülebilir",
         "Domaine": "Domen",
-        "Nom du domaine": "Domen adı",
+        "Nom du domaine": "",
+        "Authentification token": "",
+        "Token": "",
         "URL de retour": "Dönüş URL",
-        "Commande": "Komuta",
         "Ajouter une commande": "Komuta ekle",
         "Nom": "İsim",
-        "Webhook": "Webhook",
-        "Destination": "Gidilecek",
-        "Options": "Opsiyonlar",
-        "Supprimer": "Sil",
-        "Sauvegarder": "Kaydet",
-        "Ajouter un Slack": "Slack ekle",
-        "Mes Slack": "Slack'lerim",
-        "Authentification tocken": "Token kimlik doğrulamasi",
-        "Token": "Token",
-        "Authentification token": "Token kimlik doğrulamasi"
+        "Webhook": "",
+        "Destination": ""
     },
-    "plugins/slack/desktop/js/slack.js": {
+    "plugins\/slack\/desktop\/js\/slack.js": {
         "Nom": "İsim",
-        "Webhook": "Webhook",
-        "Destination": "Gidilecek",
-        "Tester": "Dene"
+        "Webhook": "",
+        "Destination": "",
+        "Tester": "Test et"
+    },
+    "plugins\/slack\/core\/php\/jeeSlack.php": {
+        "Clef API non valide, vous n\\'êtes pas autorisé à effectuer cette action (slack)": "",
+        "Domaine inconnue : ": ""
+    },
+    "plugins\/slack\/core\/class\/slack.class.php": {
+        "Message": "Mesaj",
+        "Expediteur": ""
     }
 }

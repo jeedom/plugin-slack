@@ -1,44 +1,44 @@
 {
-    "plugins/slack/plugin_info/info.xml": {
-        "Plugin pour creer un bot sur slack": "Плагин для создания бота на слабину",
-        "Aucune": "Нет",
-        "Plugin pour creer lier Jeedom à Slack": "Плагин для создания ссылки на Jeedom Слэка",
-        "Plugin pour lier Jeedom à Slack": "Плагин для связи с Jeedom Слэка"
-    },
-    "plugins/slack/core/class/slack.class.php": {
-        "Message": "Сообщение",
-        "Expediteur": "отправитель"
-    },
-    "plugins/slack/desktop/php/slack.php": {
-        "Ajouter un template": "Добавить шаблон",
-        "Rechercher": "Искать",
-        "Mes templates": "Мои шаблоны",
-        "Général": "Главная",
-        "Nom de l'équipement Slack": "Имя слабины оборудования",
-        "Nom de l'équipement slack": "Имя слабины оборудования",
-        "Activer": "Активировать",
+    "plugins\/slack\/desktop\/php\/slack.php": {
+        "401 - Accès non autorisé": "401 - Несанкционированный доступ",
+        "Gestion": "Управление",
+        "Ajouter": "Добавить",
+        "Mes Slack": "",
+        "Rechercher": "поиск",
+        "Configuration avancée": "Расширенные настройки",
+        "Dupliquer": "дубликат",
+        "Sauvegarder": "Сохранить",
+        "Supprimer": "удаление",
+        "Equipement": "Оборудование",
+        "Commandes": "Команды",
+        "Nom de l'équipement virtuel": "",
+        "Objet parent": "Родительский объект",
+        "Aucun": "Нет",
+        "Catégorie": "категория",
+        "Activer": "активировать",
         "Visible": "Видимый",
         "Domaine": "Домен",
-        "Nom du domaine": "Имя домена",
+        "Nom du domaine": "",
+        "Authentification token": "",
+        "Token": "",
         "URL de retour": "URL возвращения",
-        "Commande": "Команда",
         "Ajouter une commande": "Добавить команду",
         "Nom": "Имя",
-        "Webhook": "webhook",
-        "Destination": "назначения",
-        "Options": "Опции",
-        "Supprimer": "Удалить",
-        "Sauvegarder": "Сохранить",
-        "Ajouter un Slack": "Добавить слабину",
-        "Mes Slack": "мой вялый",
-        "Authentification tocken": "tocken аутентификации",
-        "Token": "Знак",
-        "Authentification token": "маркер аутентификации"
+        "Webhook": "",
+        "Destination": ""
     },
-    "plugins/slack/desktop/js/slack.js": {
+    "plugins\/slack\/desktop\/js\/slack.js": {
         "Nom": "Имя",
-        "Webhook": "webhook",
-        "Destination": "назначения",
+        "Webhook": "",
+        "Destination": "",
         "Tester": "Тест"
+    },
+    "plugins\/slack\/core\/php\/jeeSlack.php": {
+        "Clef API non valide, vous n\\'êtes pas autorisé à effectuer cette action (slack)": "",
+        "Domaine inconnue : ": ""
+    },
+    "plugins\/slack\/core\/class\/slack.class.php": {
+        "Message": "Сообщение",
+        "Expediteur": ""
     }
 }

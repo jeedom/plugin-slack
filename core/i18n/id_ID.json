@@ -1,44 +1,44 @@
 {
-    "plugins/slack/plugin_info/info.xml": {
-        "Plugin pour creer un bot sur slack": "Plugin untuk membuat bot di slack",
-        "Aucune": "Tak ada",
-        "Plugin pour creer lier Jeedom à Slack": "Plugin untuk membuat link ke Jeedom Slack",
-        "Plugin pour lier Jeedom à Slack": "Plugin untuk link ke Jeedom Slack"
-    },
-    "plugins/slack/core/class/slack.class.php": {
-        "Message": "pesan",
-        "Expediteur": "pengirim"
-    },
-    "plugins/slack/desktop/php/slack.php": {
-        "Ajouter un template": "menambahkan template",
-        "Rechercher": "Mencari",
-        "Mes templates": "template saya",
-        "Général": "Umum",
-        "Nom de l'équipement Slack": "Nama peralatan Slack",
-        "Nom de l'équipement slack": "Nama peralatan kendur",
+    "plugins\/slack\/desktop\/php\/slack.php": {
+        "401 - Accès non autorisé": "401 - Akses tidak sah",
+        "Gestion": "Manajemen",
+        "Ajouter": "Tambahan",
+        "Mes Slack": "",
+        "Rechercher": "Pencarian",
+        "Configuration avancée": "Konfigurasi lanjutan",
+        "Dupliquer": "Duplikat",
+        "Sauvegarder": "Menyimpan",
+        "Supprimer": "Menghapus",
+        "Equipement": "Peralatan",
+        "Commandes": "Perintah",
+        "Nom de l'équipement virtuel": "",
+        "Objet parent": "Objek induk",
+        "Aucun": "Tak ada",
+        "Catégorie": "Kategori",
         "Activer": "Mengaktifkan",
         "Visible": "Terlihat",
-        "Domaine": "domain",
-        "Nom du domaine": "Nama domain",
+        "Domaine": "Domain",
+        "Nom du domaine": "",
+        "Authentification token": "",
+        "Token": "",
         "URL de retour": "URL Kembali",
-        "Commande": "pesanan",
         "Ajouter une commande": "Tambahan pesanan",
         "Nom": "Nama",
-        "Webhook": "WebHook",
-        "Destination": "tujuan",
-        "Options": "Pilihan",
-        "Supprimer": "Menghapus",
-        "Sauvegarder": "Menyimpan",
-        "Ajouter un Slack": "menambahkan Slack",
-        "Mes Slack": "Slack saya",
-        "Authentification tocken": "otentikasi TOCKEN",
-        "Token": "Token",
-        "Authentification token": "otentikasi tanda"
+        "Webhook": "",
+        "Destination": ""
     },
-    "plugins/slack/desktop/js/slack.js": {
+    "plugins\/slack\/desktop\/js\/slack.js": {
         "Nom": "Nama",
-        "Webhook": "WebHook",
-        "Destination": "tujuan",
+        "Webhook": "",
+        "Destination": "",
         "Tester": "Coba"
+    },
+    "plugins\/slack\/core\/php\/jeeSlack.php": {
+        "Clef API non valide, vous n\\'êtes pas autorisé à effectuer cette action (slack)": "",
+        "Domaine inconnue : ": ""
+    },
+    "plugins\/slack\/core\/class\/slack.class.php": {
+        "Message": "Pesan",
+        "Expediteur": ""
     }
 }

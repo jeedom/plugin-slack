@@ -1,44 +1,44 @@
 {
-    "plugins/slack/plugin_info/info.xml": {
-        "Plugin pour creer un bot sur slack": "Plugin to create Slack bot",
-        "Aucune": "None",
-        "Plugin pour creer lier Jeedom à Slack": "Plugin to link Jeedom to Slack",
-        "Plugin pour lier Jeedom à Slack": "Plugin to link Jeedom to Slack"
-    },
-    "plugins/slack/core/class/slack.class.php": {
-        "Message": "Message",
-        "Expediteur": "Sender"
-    },
-    "plugins/slack/desktop/php/slack.php": {
-        "Ajouter un template": "Add template",
+    "plugins\/slack\/desktop\/php\/slack.php": {
+        "401 - Accès non autorisé": "401 - Unauthorized access",
+        "Gestion": "Management",
+        "Ajouter": "Add",
+        "Mes Slack": "My Slack",
         "Rechercher": "Search",
-        "Mes templates": "My templates",
-        "Général": "Main",
-        "Nom de l'équipement Slack": "Slack device name",
-        "Nom de l'équipement slack": "Slack device name",
-        "Activer": "Enable",
+        "Configuration avancée": "Advanced configuration",
+        "Dupliquer": "Duplicate",
+        "Sauvegarder": "Save",
+        "Supprimer": "Delete",
+        "Equipement": "Equipment",
+        "Commandes": "Commands",
+        "Nom de l'équipement virtuel": "Name of the virtual device",
+        "Objet parent": "Parent object",
+        "Aucun": "None",
+        "Catégorie": "Category",
+        "Activer": "Activate",
         "Visible": "Visible",
         "Domaine": "Domain",
         "Nom du domaine": "Domain name",
-        "URL de retour": "Return URL",
-        "Commande": "Command",
+        "Authentification token": "Token authentication",
+        "Token": "Token",
+        "URL de retour": "Return url",
         "Ajouter une commande": "Add a command",
         "Nom": "Name",
         "Webhook": "Webhook",
-        "Destination": "Destination",
-        "Options": "Options",
-        "Supprimer": "Delete",
-        "Sauvegarder": "Save",
-        "Ajouter un Slack": "Add Slack",
-        "Mes Slack": "My Slack",
-        "Authentification tocken": "Tocken authentification",
-        "Token": "Token",
-        "Authentification token": "Token authentification"
+        "Destination": "Destination"
     },
-    "plugins/slack/desktop/js/slack.js": {
+    "plugins\/slack\/desktop\/js\/slack.js": {
         "Nom": "Name",
         "Webhook": "Webhook",
         "Destination": "Destination",
         "Tester": "Test"
+    },
+    "plugins\/slack\/core\/php\/jeeSlack.php": {
+        "Clef API non valide, vous n\\'êtes pas autorisé à effectuer cette action (slack)": "API key not valid, you are not authorized to perform this action (slack)",
+        "Domaine inconnue : ": "Unknown domain:"
+    },
+    "plugins\/slack\/core\/class\/slack.class.php": {
+        "Message": "Message",
+        "Expediteur": "Sender"
     }
 }

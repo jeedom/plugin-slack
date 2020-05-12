@@ -1,0 +1,44 @@
+{
+    "plugins\/slack\/desktop\/php\/slack.php": {
+        "401 - Accès non autorisé": "401 - Accès non autorisé",
+        "Gestion": "Gestion",
+        "Ajouter": "Ajouter",
+        "Mes Slack": "Mes Slack",
+        "Rechercher": "Rechercher",
+        "Configuration avancée": "Configuration avancée",
+        "Dupliquer": "Dupliquer",
+        "Sauvegarder": "Sauvegarder",
+        "Supprimer": "Supprimer",
+        "Equipement": "Equipement",
+        "Commandes": "Commandes",
+        "Nom de l'équipement virtuel": "Nom de l'équipement virtuel",
+        "Objet parent": "Objet parent",
+        "Aucun": "Aucun",
+        "Catégorie": "Catégorie",
+        "Activer": "Activer",
+        "Visible": "Visible",
+        "Domaine": "Domaine",
+        "Nom du domaine": "Nom du domaine",
+        "Authentification token": "Authentification token",
+        "Token": "Token",
+        "URL de retour": "URL de retour",
+        "Ajouter une commande": "Ajouter une commande",
+        "Nom": "Nom",
+        "Webhook": "Webhook",
+        "Destination": "Destination"
+    },
+    "plugins\/slack\/desktop\/js\/slack.js": {
+        "Nom": "Nom",
+        "Webhook": "Webhook",
+        "Destination": "Destination",
+        "Tester": "Tester"
+    },
+    "plugins\/slack\/core\/php\/jeeSlack.php": {
+        "Clef API non valide, vous n\\'êtes pas autorisé à effectuer cette action (slack)": "Clef API non valide, vous n\\'êtes pas autorisé à effectuer cette action (slack)",
+        "Domaine inconnue : ": "Domaine inconnue : "
+    },
+    "plugins\/slack\/core\/class\/slack.class.php": {
+        "Message": "Message",
+        "Expediteur": "Expediteur"
+    }
+}
