@@ -108,8 +108,8 @@ class slackCmd extends cmd {
 		}
 		if (isset($_options['files']) && is_array($_options['files'])) {
 			$eqLogic = $this->getEqLogic();
-			$request_http = new com_http('https://slack.com/api/channels.list');
-			$request_http->setPost(array('token' => $eqLogic->getConfiguration('oauth_token')));
+			$request_http = new com_http('https://slack.com/api/conversations.list');
+			$request_http->setPost(array('token' => $eqLogic->getConfiguration('oauth_token'),'types'=>'public_channel,private_channel'));
 			$channels = json_decode($request_http->exec(10, 3), true);
 			$cid = null;
 			if (isset($channels['channels'])) {
