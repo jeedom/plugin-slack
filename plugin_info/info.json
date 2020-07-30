@@ -1,7 +1,13 @@
 {
     "id": "slack",
     "name": "Slack",
-    "description": "Plugin pour lier Jeedom à Slack",
+    "description": {
+        "fr_FR": "Plugin pour lier Jeedom à Slack",
+        "en_US": "Plugin to link Jeedom to Slack",
+        "es_ES": "Complemento para vincular Jeedom a Slack",
+        "de_DE": "Plugin, um Jeedom mit Slack zu verbinden",
+        "pt_PT": "Plugin para vincular o Jeedom ao Slack"
+    },
     "licence": "AGPL",
     "author": "Loïc",
     "require": "3.0",
@@ -11,11 +17,9 @@
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",

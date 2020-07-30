@@ -40,5 +40,8 @@
     "plugins\/slack\/core\/class\/slack.class.php": {
         "Message": "Nachricht",
         "Expediteur": "Absender"
+    },
+    "info.json": {
+        "Plugin pour lier Jeedom à Slack": "Plugin, um Jeedom mit Slack zu verbinden"
     }
 }
