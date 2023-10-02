@@ -120,7 +120,7 @@ class slackCmd extends cmd {
 					}
 				}
 			}
-			if ($cid == null) {
+			if ($cid === null) {
 				return;
 			}
 			foreach ($_options['files'] as $file) {
